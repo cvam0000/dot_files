@@ -214,5 +214,5 @@ bindsym $mod+shift+v exec code
 
 
 #xinput touchpad
-exec xinput set-prop 10 286 1 
+exec xinput set-prop 9 286 1 
 
