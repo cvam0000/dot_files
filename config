@@ -216,3 +216,5 @@ bindsym $mod+shift+v exec code
 #xinput touchpad
 exec xinput set-prop 9 286 1 
 
+#qbittorrent torrent client
+exec $mod+t exec qbittorrent
