@@ -182,7 +182,7 @@ bindsym --release prt sc  exec "scregcp -s ~/Pictures/Screenshots/"
 #bindsym --release Print exec "scregcp ~/Pictures/Screenshots/"
 
 # Saving the background image
-exec --no-startup-id feh --bg-scale ~/Desktop/goku.png
+exec --no-startup-id feh --bg-scale ~/Downloads/goku.png
 # alternatively, use `sh ~/.fehbg` to save the same.
 
 # Start Firefox
