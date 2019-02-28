@@ -182,7 +182,7 @@ bindsym --release prt sc  exec "scregcp -s ~/Pictures/Screenshots/"
 #bindsym --release Print exec "scregcp ~/Pictures/Screenshots/"
 
 # Saving the background image
-exec --no-startup-id feh --bg-scale ~/Downloads/goku.png
+exec --no-startup-id feh --bg-scale ~/Downloads/chari.png
 # alternatively, use `sh ~/.fehbg` to save the same.
 
 # Start Firefox
@@ -214,7 +214,7 @@ bindsym $mod+shift+v exec code
 
 
 #xinput touchpad
-exec xinput set-prop 9 286 1 
+exec xinput set-prop 10 286 1 
 
 #qbittorrent torrent client
 exec $mod+t exec qbittorrent
