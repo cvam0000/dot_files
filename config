@@ -221,3 +221,4 @@ exec $mod+t exec qbittorrent
 
 #lockscreen 
 exec --no-startup-id betterlockscreen -w dim
+bindsym $mod+shift+x exec betterlockscreen -l dim
