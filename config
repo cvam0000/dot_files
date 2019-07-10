@@ -1,6 +1,21 @@
 # cvam_i3config
 
-exec --no-startup-id nitrogen /Downloads
+# You can also use any non-zero value if you'd like to have a border
+for_window [class=".*"] border pixel 0
+
+
+################i3-gaps############################
+
+##################################################
+
+
+
+
+
+
+
+
+
 set $mod Mod4
 
 # i3 config file (v4)
@@ -93,7 +108,7 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1"
+set $ws1 "cvam"
 set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
@@ -182,7 +197,7 @@ bindsym --release prt sc  exec "scregcp -s ~/Pictures/Screenshots/"
 #bindsym --release Print exec "scregcp ~/Pictures/Screenshots/"
 
 # Saving the background image
-exec --no-startup-id feh --bg-scale ~/Downloads/pokemon.png
+exec --no-startup-id feh --bg-scale ~/Downloads/chan.png
 # alternatively, use `sh ~/.fehbg` to save the same.
 
 # Start Firefox
@@ -197,7 +212,7 @@ bindsym $mod+shift+g exec gitter
 # Start conky on boot-up
 exec --no-startup-id conky -c ~/.conky/Conky\ Seamod/conky_seamod
 exec --no-startup-id conky -c ~/.conky/Green\ Apple\Desktop/Gotham
-
+exec --no-startup-id conky -c ~/.conky/Green\ Apple\ Desktop/Green\ Apple\ Desktop.cmtheme 
 # Start atom
 bindsym $mod+shift+a exec atom
 
@@ -222,3 +237,7 @@ exec $mod+t exec qbittorrent
 #lockscreen 
 exec --no-startup-id betterlockscreen -w dim
 bindsym $mod+shift+x exec betterlockscreen -l dim
+
+
+# Start Slack
+bindsym $mod+shift+s exec slack
