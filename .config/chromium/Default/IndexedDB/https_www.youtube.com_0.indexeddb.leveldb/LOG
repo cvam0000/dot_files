@@ -1,0 +1,8 @@
+2020/05/07-18:43:28.216 31aa Reusing MANIFEST /home/cvam/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/07-18:43:28.217 31aa Recovering log #7
+2020/05/07-18:43:28.217 31aa Reusing old log /home/cvam/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2020/05/07-18:44:27.370 b9b Level-0 table #11: started
+2020/05/07-18:44:27.370 b9b Level-0 table #11: 0 bytes OK
+2020/05/07-18:44:27.372 b9b Delete type=0 #7
+2020/05/07-18:44:27.372 b9b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/07-18:44:27.372 b9b Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,27 @@
+{
+    "appLanguage": null,
+    "autoHideMenubar": false,
+    "errorReporting": true,
+    "useSystemProxy": false,
+    "trayIcon": true,
+    "silent": false,
+    "startMinimized": false,
+    "useManualProxy": false,
+    "autoUpdate": true,
+    "showSidebar": true,
+    "badgeOption": true,
+    "startAtLogin": true,
+    "enableSpellchecker": true,
+    "showNotification": true,
+    "betaUpdate": false,
+    "customCSS": false,
+    "lastActiveTab": 0,
+    "dnd": false,
+    "dndPreviousSettings": {
+        "showNotification": true,
+        "silent": false
+    },
+    "downloadsPath": "/home/cvam/Downloads",
+    "quitOnClose": false,
+    "promptDownload": false
+}

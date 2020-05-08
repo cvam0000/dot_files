@@ -1,0 +1,5 @@
+2020/05/07-17:49:25.440 1bba Reusing MANIFEST /home/cvam/.config/chromium/Default/IndexedDB/https_www.bbc.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/07-17:49:39.604 b9b Level-0 table #5: started
+2020/05/07-17:49:39.605 b9b Level-0 table #5: 332 bytes OK
+2020/05/07-17:49:39.608 b9b Delete type=0 #3
+2020/05/07-17:49:39.608 b9b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

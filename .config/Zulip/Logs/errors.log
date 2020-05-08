@@ -1,0 +1,9 @@
+LOG | 3/30 49:2 |	 Load bots request failed:  {"result":"error","msg":"Not logged in: API authentication or user session required"}
+
+LOG | 3/30 49:2 |	 Load bots request status:  401
+LOG | 4/2 36:20 |	 Load bots request failed:  {"result":"error","msg":"Not logged in: API authentication or user session required"}
+
+LOG | 4/2 36:20 |	 Load bots request status:  401
+LOG | 4/4 14:54 |	 Load bots request failed:  {"result":"error","msg":"Not logged in: API authentication or user session required"}
+
+LOG | 4/4 14:54 |	 Load bots request status:  401

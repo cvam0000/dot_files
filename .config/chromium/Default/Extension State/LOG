@@ -1,0 +1,15 @@
+2020/05/07-16:58:08.979 478 Reusing MANIFEST /home/cvam/.config/chromium/Default/Extension State/MANIFEST-000001
+2020/05/07-16:58:08.979 478 Recovering log #38
+2020/05/07-16:58:08.987 478 Reusing old log /home/cvam/.config/chromium/Default/Extension State/000038.log 
+2020/05/07-18:47:40.503 34b4 Level-0 table #42: started
+2020/05/07-18:47:40.577 34b4 Level-0 table #42: 2195241 bytes OK
+2020/05/07-18:47:40.693 34b4 Delete type=0 #38
+2020/05/07-18:47:40.822 34b4 Compacting 4@0 + 1@1 files
+2020/05/07-18:47:40.871 34b4 Generated table #43@0: 1 keys, 2833 bytes
+2020/05/07-18:47:40.871 34b4 Compacted 4@0 + 1@1 files => 2833 bytes
+2020/05/07-18:47:41.007 34b4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/05/07-18:47:41.008 34b4 Delete type=2 #42
+2020/05/07-18:47:41.008 34b4 Delete type=2 #36
+2020/05/07-18:47:41.008 34b4 Delete type=2 #32
+2020/05/07-18:47:41.008 34b4 Delete type=2 #34
+2020/05/07-18:47:41.008 34b4 Delete type=2 #39

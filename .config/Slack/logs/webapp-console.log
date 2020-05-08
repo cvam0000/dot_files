@@ -1,0 +1,2232 @@
+[03/06/20, 15:51:35:063] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.3.2, linux 5.5.6-arch1-1 on x64 at 03/06/20, 15:51:35:063      ║
+╚═════════════════════════════════════════════════════════════════════════════╝ 
+[03/06/20, 15:51:35:064] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[03/06/20, 15:51:35:064] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.3.2",
+  "PACKAGE_MANIFEST.commit": "bdb3575",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[03/06/20, 15:51:35:828] info: Initializing local storage instance at path: /home/cvam/.config/Slack/local-settings.json 
+[03/06/20, 15:51:35:881] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:51:35:882] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:51:35:902] info: Read UUID from file successful {
+  "uuid": "419eca47-4251-5bb3-95a8-e1405c08944f"
+} 
+[03/06/20, 15:51:35:931] info: toggleAutoSpellcheck:: desktop interface is not available 
+[03/06/20, 15:51:35:931] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:51:35:940] info: Main window preload script finished {
+  "readyTime": 8.674433
+} 
+[03/06/20, 15:51:35:975] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[03/06/20, 15:51:35:975] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[03/06/20, 15:51:35:975] info: cld3Loader::loadModule: constructed module object for runtime 
+[03/06/20, 15:51:36:000] info: cld3Loader::initializeRuntime: successfully initialized module 
+[03/06/20, 15:51:36:001] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[03/06/20, 15:51:36:001] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[03/06/20, 15:51:37:052] info: Network status check {
+  "elapsed_time_ms": 664,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[03/06/20, 15:51:37:057] info: Store: SET_NETWORK_STATUS online 
+[03/06/20, 15:51:37:601] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[03/06/20, 15:51:40:950] warn: error getActiveModelOb found no ob 
+[03/06/20, 15:51:40:950] warn: TS.boot_data.channel_id: undefined 
+[03/06/20, 15:51:40:951] warn: TS.boot_data.im_id: undefined 
+[03/06/20, 15:51:40:951] warn: TS.boot_data.group_id: undefined 
+[03/06/20, 15:51:40:951] warn: error getActiveModelOb found no ob 
+[03/06/20, 15:51:40:951] warn: TS.boot_data.channel_id: undefined 
+[03/06/20, 15:51:40:951] warn: TS.boot_data.im_id: undefined 
+[03/06/20, 15:51:40:951] warn: TS.boot_data.group_id: undefined 
+[03/06/20, 15:51:40:966] info: [BOOT] booted! pri:0 version:1583470245 start_ms:1583490096235 (4730ms ago) 
+[03/06/20, 15:51:40:989] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[03/06/20, 15:51:41:025] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[03/06/20, 15:51:41:025] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["version"] 
+[03/06/20, 15:51:41:026] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[03/06/20, 15:51:41:026] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[03/06/20, 15:51:41:027] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[03/06/20, 15:51:41:028] info: [INFO] no TS.client on page:https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient 
+[03/06/20, 15:51:41:029] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "loaded"
+} 
+[03/06/20, 15:51:41:029] info: Store: MAIN_WINDOW_SHOWN  
+[03/06/20, 15:51:41:029] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 768,
+      "width": 1024,
+      "x": 448,
+      "y": 156
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/06/20, 15:51:41:030] info: Store: CLEAR_NOTIFICATIONS  
+[03/06/20, 15:51:41:030] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [version] 
+[03/06/20, 15:51:42:098] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1031,
+      "width": 960,
+      "x": 960,
+      "y": 28
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/06/20, 15:51:42:198] info: [INFO] running without a user 
+[03/06/20, 15:51:42:859] info: Got window.open with URL: /ssb/signin 
+[03/06/20, 15:51:42:892] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[03/06/20, 15:51:42:893] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[03/06/20, 15:51:42:897] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[03/06/20, 15:51:42:904] info: [API-Q] (T00000000) ee0f7d53-1583490102.898 team.info called with reason: UnknownFetchManager 
+[03/06/20, 15:51:42:905] info: [API-Q] (T00000000) ee0f7d53-1583490102.898 team.info is ENQUEUED 
+[03/06/20, 15:51:42:905] info: [API-Q] (T00000000) ee0f7d53-1583490102.898 team.info is ACTIVE 
+[03/06/20, 15:51:43:351] info: [API-Q] (T00000000) ee0f7d53-1583490102.898 team.info is REJECTED: API not ok not_authed 
+[03/06/20, 15:51:43:353] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[03/06/20, 15:51:43:353] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[03/06/20, 15:51:43:538] info: [FOCUS-EVENT] Window blurred 
+[03/06/20, 15:51:44:584] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1031,
+      "width": 640,
+      "x": 640,
+      "y": 28
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/06/20, 15:52:01:241] info: [FOCUS-EVENT] Window focused 
+[03/06/20, 15:52:01:321] info: [FOCUS-EVENT] Window blurred 
+[03/06/20, 15:52:01:984] info: [FOCUS-EVENT] Window focused 
+[03/06/20, 15:52:02:496] info: [FOCUS-EVENT] Window blurred 
+[03/06/20, 15:52:05:818] info: [FOCUS-EVENT] Window focused 
+[03/06/20, 15:52:05:942] info: [FOCUS-EVENT] Window blurred 
+[03/06/20, 15:52:34:983] info: Store: UPDATE_SETTINGS {
+  "lastClogForProxyInfo": 1583490154982
+} 
+[03/06/20, 15:53:16:615] info: Store: HANDLE_DEEP_LINK {
+  "causedLaunch": false,
+  "url": "slack://T3ZBW1Z0D/magic-login/985030676964-07b867d88eef2f3eb4d7f038b4e701769c23861a0ccac0cda31593f2b3166602"
+} 
+[03/06/20, 15:53:17:440] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "history": "[REDACTED]",
+  "id": 1,
+  "state": "page-will-navigate"
+} 
+[03/06/20, 15:53:17:482] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 
+[03/06/20, 15:53:18:803] info: [FOCUS-EVENT] Window focused 
+[03/06/20, 15:53:18:871] info: Initializing local storage instance at path: /home/cvam/.config/Slack/local-settings.json 
+[03/06/20, 15:53:18:928] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:53:18:929] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:53:18:951] info: Read UUID from file successful {
+  "uuid": "419eca47-4251-5bb3-95a8-e1405c08944f"
+} 
+[03/06/20, 15:53:18:977] info: toggleAutoSpellcheck:: desktop interface is not available 
+[03/06/20, 15:53:18:977] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:53:18:983] info: Main window preload script finished {
+  "readyTime": 5.81958
+} 
+[03/06/20, 15:53:19:001] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "loaded"
+} 
+[03/06/20, 15:53:19:035] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[03/06/20, 15:53:19:035] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[03/06/20, 15:53:19:035] info: cld3Loader::loadModule: constructed module object for runtime 
+[03/06/20, 15:53:19:063] info: cld3Loader::initializeRuntime: successfully initialized module 
+[03/06/20, 15:53:19:064] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[03/06/20, 15:53:19:064] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[03/06/20, 15:53:19:465] info: [METRICS] Starting timers for metrics collection 
+[03/06/20, 15:53:19:479] info: [PERF] setupGantry_w begin 1173ms 
+[03/06/20, 15:53:19:480] info: [APP] client 
+[03/06/20, 15:53:19:480] info: [DATE/TIME] 1583490199480 "2020-03-06T10:23:19.480Z" 
+[03/06/20, 15:53:19:480] info: [VERSION] version_hash: ee0f7d539f2b17fb5aa0184c9010edc7ad3fb547 
+[03/06/20, 15:53:19:480] info: [VERSION] version_ts: 1583470245 
+[03/06/20, 15:53:19:480] info: [VERSION] min_version_data_ts: 1581290339 
+[03/06/20, 15:53:19:481] info: [AUTH] authCookieChanged: started listening to the event 
+[03/06/20, 15:53:19:485] info: [AUTH] Need to re-fetch auth (sc=true, psc=NaN, csc=1583489985, mfc=true, lf=0, mf=1562000400) 
+[03/06/20, 15:53:19:486] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1583490199486 
+[03/06/20, 15:53:19:486] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client 
+[03/06/20, 15:53:19:487] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=null&return_to=%2Fclient&teams= 
+[03/06/20, 15:53:19:489] info: [WD] All assets have reported back; s: 7; f: 0 
+[03/06/20, 15:53:19:995] info: Network status check {
+  "elapsed_time_ms": 502,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[03/06/20, 15:53:19:999] info: [AUTH] credentials are ready 
+[03/06/20, 15:53:20:000] info: Store: SET_NETWORK_STATUS online 
+[03/06/20, 15:53:20:005] info: [AUTH] credentials are ready ({"added":["T3ZBW1Z0D"],"changed":[],"removed":[],"isNoOp":false,"usersChanged":false}) 
+[03/06/20, 15:53:20:007] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 510 bytes of data 
+[03/06/20, 15:53:20:008] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: (none), teams now: T3ZBW1Z0D:U3Z9ACBLJ 
+[03/06/20, 15:53:20:012] info: [BOOT] Initial team ID: T3ZBW1Z0D 
+[03/06/20, 15:53:20:013] info: [PERF] setupGantry_w took 533.98ms 
+[03/06/20, 15:53:20:017] info: [PERF] bootClient_w begin 1711ms 
+[03/06/20, 15:53:20:023] info: [BOOT] (T3ZBW1Z0D) Initializing boot 
+[03/06/20, 15:53:20:029] info: [BOOT] (T3ZBW1Z0D) Minimum supported data version is 1581290339; currently on undefined 
+[03/06/20, 15:53:20:029] info: [BOOT] (T3ZBW1Z0D) Skipping checking persisted store because if it exists it's out of date 
+[03/06/20, 15:53:20:029] info: [PERSIST] (T3ZBW1Z0D) Purging persisted model... 
+[03/06/20, 15:53:20:034] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.032 client.boot called with reason: initial-data 
+[03/06/20, 15:53:20:034] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.032 client.boot is ENQUEUED 
+[03/06/20, 15:53:20:035] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.032 client.boot is ACTIVE 
+[03/06/20, 15:53:20:036] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.036 api.features called 
+[03/06/20, 15:53:20:037] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.036 api.features is ENQUEUED 
+[03/06/20, 15:53:20:037] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.036 api.features is ACTIVE 
+[03/06/20, 15:53:20:037] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.037 experiments.getByUser called 
+[03/06/20, 15:53:20:037] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.037 experiments.getByUser is ENQUEUED 
+[03/06/20, 15:53:20:038] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.037 experiments.getByUser is ACTIVE 
+[03/06/20, 15:53:20:038] info: [BOOT] Couldn't determine boot channel. Falling back to default channel 
+[03/06/20, 15:53:20:044] info: [PERSIST] (T3ZBW1Z0D) Purged model 
+[03/06/20, 15:53:20:506] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.036 api.features is RESOLVED 
+[03/06/20, 15:53:20:510] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.037 experiments.getByUser is RESOLVED 
+[03/06/20, 15:53:20:684] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490200.032 client.boot is RESOLVED 
+[03/06/20, 15:53:21:232] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[03/06/20, 15:53:21:249] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[03/06/20, 15:53:21:250] info: [BOOT] (T3ZBW1Z0D) Booting cold 
+[03/06/20, 15:53:21:277] info: [DESKTOP-MIDDLEWARE] (T3ZBW1Z0D) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[03/06/20, 15:53:21:278] info: [BOOT] (T3ZBW1Z0D) Dispatching boot data 
+[03/06/20, 15:53:21:282] info: [DESKTOP-MIDDLEWARE] (T3ZBW1Z0D) Forwarding redux payload to desktop ["version"] 
+[03/06/20, 15:53:21:293] info: [DESKTOP-MIDDLEWARE] (T3ZBW1Z0D) Forwarding redux payload to desktop ["theme","notificationPrefs","unreads"] 
+[03/06/20, 15:53:21:306] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[03/06/20, 15:53:21:309] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.307 emoji.list called with reason: loadEmoji 
+[03/06/20, 15:53:21:309] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.307 emoji.list is ENQUEUED 
+[03/06/20, 15:53:21:309] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.307 emoji.list is ACTIVE 
+[03/06/20, 15:53:21:310] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.310 commands.list called with reason: loadSlashCommands 
+[03/06/20, 15:53:21:311] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.310 commands.list is ENQUEUED 
+[03/06/20, 15:53:21:311] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.310 commands.list is ACTIVE 
+[03/06/20, 15:53:21:321] info: [BOOT] (T3ZBW1Z0D) Boot complete 
+[03/06/20, 15:53:21:322] info: [DESKTOP-SIDE-EFFECT] (T3ZBW1Z0D) Reacting to  {"type":"[32] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[03/06/20, 15:53:21:334] info: [DESKTOP-SIDE-EFFECT] (T3ZBW1Z0D) Team T3ZBW1Z0D booted, creating delegate 
+[03/06/20, 15:53:21:334] info: [DESKTOP-SIDE-EFFECT] (T3ZBW1Z0D) Attempted boot for all workspaces, signaling desktop 
+[03/06/20, 15:53:21:334] info: postLoadTaskSetup: loading spellchecker 
+[03/06/20, 15:53:21:336] info: [BOOT] (T3ZBW1Z0D) Connecting to socket 
+[03/06/20, 15:53:21:336] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from never_connected to prov_connect 
+[03/06/20, 15:53:21:337] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connect state for up to 10000 ms 
+[03/06/20, 15:53:21:337] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connect to prov_connecting 
+[03/06/20, 15:53:21:337] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connecting state for up to 35000 ms 
+[03/06/20, 15:53:21:337] error: [DESKTOP] 'desktop.stats.performance.timeSpentInPreload' is missing or not a function 
+[03/06/20, 15:53:21:338] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[03/06/20, 15:53:21:339] info: [BOOT] (T3ZBW1Z0D) (T3ZBW1Z0D) Mounting client 
+[03/06/20, 15:53:21:440] info: [HISTORY-NAVIGATION] Adding route to the history stack 
+[03/06/20, 15:53:21:552] error: [DESKTOP] 'desktop.stats.performance.timeSpentInPreload' is missing or not a function 
+[03/06/20, 15:53:21:553] info: [DRAFTS] (T3ZBW1Z0D) There are no channels with drafts 
+[03/06/20, 15:53:21:555] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.553 apps.getSidebarPrompts called with reason: initializeAppSuggestionLinksData 
+[03/06/20, 15:53:21:555] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.553 apps.getSidebarPrompts is ENQUEUED 
+[03/06/20, 15:53:21:555] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.553 apps.getSidebarPrompts is ACTIVE 
+[03/06/20, 15:53:21:555] info: [BOOT] (T3ZBW1Z0D) Beaconed client boot mount success 
+[03/06/20, 15:53:21:559] error: [DESKTOP] 'desktop.stats.performance.timeToPageLoad' is missing or not a function 
+[03/06/20, 15:53:21:560] info: [PERF] (T3ZBW1Z0D) Logged time to visible (TTV): 4076.710000001185 
+[03/06/20, 15:53:21:589] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.587 promo.banner called with reason: fetch-megaphone-notification-data 
+[03/06/20, 15:53:21:589] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.587 promo.banner is ENQUEUED 
+[03/06/20, 15:53:21:589] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.587 promo.banner is ACTIVE 
+[03/06/20, 15:53:21:694] info: [CHECK-UNREADS] (T3ZBW1Z0D) unreadLineVisible updated: false -> true 
+[03/06/20, 15:53:21:721] info: [PERF] (T3ZBW1Z0D) First meaningful paint: 3246ms 
+[03/06/20, 15:53:21:721] info: [PERF] bootClient_w took 1703.93ms 
+[03/06/20, 15:53:21:721] info: [BOOT] Booting other teams:  
+[03/06/20, 15:53:21:723] info: [PERSIST] Purging persisted models, except for the following teamIds ["T3ZBW1Z0D"] 
+[03/06/20, 15:53:21:725] info: [WD] All assets have reported back; s: 10; f: 0 
+[03/06/20, 15:53:21:730] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 15:53:21:733] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[03/06/20, 15:53:21:736] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["downloads","environment","windows","settings"] 
+[03/06/20, 15:53:21:739] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[03/06/20, 15:53:21:740] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[03/06/20, 15:53:21:759] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after workspace became focused 
+[03/06/20, 15:53:21:760] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 15:53:21:760] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:53:21:760] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 15:53:21:767] info: Store: SYNC (Empty) 
+[03/06/20, 15:53:21:768] info: Store: SELECTION_CHANGED T3ZBW1Z0D 
+[03/06/20, 15:53:21:768] info: Store: UPDATE_SETTINGS {
+  "locale": "en-US"
+} 
+[03/06/20, 15:53:21:771] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[03/06/20, 15:53:21:771] info: Store: UPDATE_SETTINGS {
+  "locale": "en-US"
+} 
+[03/06/20, 15:53:21:774] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[03/06/20, 15:53:21:774] info: Store: REDUX_UPDATE_FROM_WEBAPP (T3ZBW1Z0D) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[03/06/20, 15:53:21:774] info: Store: REDUX_UPDATE_FROM_WEBAPP (T3ZBW1Z0D) Changed keys [version] 
+[03/06/20, 15:53:21:774] info: Store: REDUX_UPDATE_FROM_WEBAPP (T3ZBW1Z0D) Changed keys [theme,notificationPrefs,unreads] 
+[03/06/20, 15:53:21:775] info: Store: SYNC Synced 1 workspaces with IDs [T3ZBW1Z0D] 
+[03/06/20, 15:53:21:775] info: Store: SELECTION_CHANGED T3ZBW1Z0D 
+[03/06/20, 15:53:21:776] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "webapp-loaded"
+} 
+[03/06/20, 15:53:21:783] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:53:21:785] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:53:21:788] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:53:21:794] info: [UNKNOWN-FETCH-MANAGER] (T3ZBW1Z0D) requesting U3Z9ACBLJ,USLACKBOT (1) 
+[03/06/20, 15:53:21:802] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.796 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[03/06/20, 15:53:21:802] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.796 api.getFlannelHttpUrl is ENQUEUED 
+[03/06/20, 15:53:21:802] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.796 api.getFlannelHttpUrl is ACTIVE 
+[03/06/20, 15:53:21:822] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.818 team.whatsNew called with reason: boot-team 
+[03/06/20, 15:53:21:822] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.818 team.whatsNew is ENQUEUED 
+[03/06/20, 15:53:21:823] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.818 team.whatsNew is ACTIVE 
+[03/06/20, 15:53:21:837] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.831 help.issues.list called with reason: fetchAndUpsertHelpIssues 
+[03/06/20, 15:53:21:837] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.831 help.issues.list is ENQUEUED 
+[03/06/20, 15:53:21:837] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.831 help.issues.list is ACTIVE 
+[03/06/20, 15:53:21:842] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.310 commands.list is RESOLVED 
+[03/06/20, 15:53:21:847] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.843 team.admins.list called with reason: fetchAdminRolesRecursively 
+[03/06/20, 15:53:21:848] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.843 team.admins.list is ENQUEUED 
+[03/06/20, 15:53:21:848] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.843 team.admins.list is ACTIVE 
+[03/06/20, 15:53:21:857] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.853 users.channelSections.list called with reason: channel_sections_list 
+[03/06/20, 15:53:21:857] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.853 users.channelSections.list is ENQUEUED 
+[03/06/20, 15:53:21:857] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.853 users.channelSections.list is ACTIVE 
+[03/06/20, 15:53:21:866] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.307 emoji.list is RESOLVED 
+[03/06/20, 15:53:21:888] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:53:21:888] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:53:21:889] info: loadAsmModule: loading hunspell-asm module 
+[03/06/20, 15:53:21:891] info: [UNKNOWN-FETCH-MANAGER] (T3ZBW1Z0D) requesting _all_actions (1) 
+[03/06/20, 15:53:21:893] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.891 apps.actions.list called with reason: fetch-app-actions 
+[03/06/20, 15:53:21:893] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.891 apps.actions.list is ENQUEUED 
+[03/06/20, 15:53:21:894] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.891 apps.actions.list is ACTIVE 
+[03/06/20, 15:53:21:894] info: toggleAutoSpellcheck: run spellchecker with language detector 
+[03/06/20, 15:53:21:894] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector 
+[03/06/20, 15:53:21:894] info: SpellChecker::startWithDictionary: Starting language detector with English by default 
+[03/06/20, 15:53:21:921] info: hunspell::loadModule: loading hunspell wasm binary {
+  "initOptions": {}
+} 
+[03/06/20, 15:53:21:922] info: hunspellLoader::loadModule: constructed module object for runtime 
+[03/06/20, 15:53:21:922] info: hunspellLoader::initializeRuntime: successfully initialized module 
+[03/06/20, 15:53:21:922] info: hunspellLoader::loadModule: initialized wasm binary Runtime 
+[03/06/20, 15:53:21:922] info: hunspell::hunspellLoader: mount path for bufferFile created at /xs4CvR7scN1Oyu-u06RNTM3P7WQi8Wp5jOH--phbf6aO5 
+[03/06/20, 15:53:21:922] info: loadAsmModule: asm module loaded successfully 
+[03/06/20, 15:53:21:923] info: switchDictionary: trying to switch spellchecker {
+  "language": "en"
+} 
+[03/06/20, 15:53:21:924] info: [PERSIST] Purged persisted models [] 
+[03/06/20, 15:53:21:927] info: [MIN-VERSION] Starting client min-version poll. 
+[03/06/20, 15:53:21:937] info: SpellChecker::spellgetLanguageRegionCode: found region supported language {
+  "code": "en"
+} 
+[03/06/20, 15:53:21:937] info: SpellChecker::getLanguageRegionCode: Intl returned locale {
+  "locale": "en-US"
+} 
+[03/06/20, 15:53:21:937] info: SpellChecker::getLanguageRegionCode: return language code with region {
+  "code": "en-us"
+} 
+[03/06/20, 15:53:21:938] info: download: downloading dictionary for 'en-us' 
+[03/06/20, 15:53:21:938] info: fetchResourceAsBuffer: downloading {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.aff",
+  "cachePolicy": "default"
+} 
+[03/06/20, 15:53:21:973] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connecting to prov_connected 
+[03/06/20, 15:53:21:973] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connected state for up to 60000 ms 
+[03/06/20, 15:53:21:978] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connected to prov_finalize 
+[03/06/20, 15:53:21:978] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_finalize state for up to 10000 ms 
+[03/06/20, 15:53:21:979] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_finalize to prov_finalizing 
+[03/06/20, 15:53:21:979] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_finalizing state for up to 10000 ms 
+[03/06/20, 15:53:21:980] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_finalizing to connected 
+[03/06/20, 15:53:21:981] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connected state for up to Infinity ms 
+[03/06/20, 15:53:21:982] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Connected to primary region 
+[03/06/20, 15:53:21:995] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.993 i18n.locale.suggestNew called with reason: no_reason_provided 
+[03/06/20, 15:53:21:995] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.993 i18n.locale.suggestNew is ENQUEUED 
+[03/06/20, 15:53:21:995] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.993 i18n.locale.suggestNew is ACTIVE 
+[03/06/20, 15:53:21:999] info: [MESSAGE-HISTORY] (T3ZBW1Z0D) Resetting reachedEnd 
+[03/06/20, 15:53:22:002] info: [UNREAD-COUNTS] (T3ZBW1Z0D) Fetching counts 
+[03/06/20, 15:53:22:004] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.002 client.counts called with reason: client-counts-api/fetchClientCounts 
+[03/06/20, 15:53:22:004] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.002 client.counts is ENQUEUED 
+[03/06/20, 15:53:22:004] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.002 client.counts is ACTIVE 
+[03/06/20, 15:53:22:012] info: [HISTORY-FETCH] (T3ZBW1Z0D) Fetching history for message pane: C3YJR62FK oldest: 1485939024.917433 latest: null 
+[03/06/20, 15:53:22:013] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.012 conversations.history called with reason: message-pane/requestHistory 
+[03/06/20, 15:53:22:013] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.012 conversations.history is ENQUEUED 
+[03/06/20, 15:53:22:016] info: [CHECK-UNREADS] (T3ZBW1Z0D) unreadLineVisible updated: true -> false 
+[03/06/20, 15:53:22:024] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.553 apps.getSidebarPrompts is RESOLVED 
+[03/06/20, 15:53:22:025] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.012 conversations.history is ACTIVE 
+[03/06/20, 15:53:22:048] info: [PERSIST] (T3ZBW1Z0D) Successfully persisted state 
+[03/06/20, 15:53:22:117] info: fetchResourceAsBuffer: successfully downloaded {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.aff",
+  "status": 200,
+  "ok": true,
+  "redirected": false,
+  "statusText": "",
+  "url": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.aff",
+  "type": "cors"
+} 
+[03/06/20, 15:53:22:118] info: [DND] (T3ZBW1Z0D) Preparing to fetch DND times for the following members: U3Z9ACBLJ 
+[03/06/20, 15:53:22:122] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.118 dnd.info called with reason: getDndTimesForSubscribedMembers 
+[03/06/20, 15:53:22:123] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.118 dnd.info is ENQUEUED 
+[03/06/20, 15:53:22:138] info: fetchResourceAsBuffer: returning arrayBuffer 
+[03/06/20, 15:53:22:138] info: fetchResourceAsBuffer: downloading {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.dic",
+  "cachePolicy": "default"
+} 
+[03/06/20, 15:53:22:139] info: fetchResourceAsBuffer: successfully downloaded {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.dic",
+  "status": 200,
+  "ok": true,
+  "redirected": false,
+  "statusText": "",
+  "url": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.dic",
+  "type": "cors"
+} 
+[03/06/20, 15:53:22:228] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.587 promo.banner is RESOLVED 
+[03/06/20, 15:53:22:230] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.118 dnd.info is ACTIVE 
+[03/06/20, 15:53:22:231] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.796 api.getFlannelHttpUrl is RESOLVED 
+[03/06/20, 15:53:22:303] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.818 team.whatsNew is RESOLVED 
+[03/06/20, 15:53:22:308] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.305 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 15:53:22:308] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.305 Flannel users/info is ENQUEUED 
+[03/06/20, 15:53:22:308] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.305 Flannel users/info is ACTIVE 
+[03/06/20, 15:53:22:310] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.308 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 15:53:22:310] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.308 Flannel users/info is ENQUEUED 
+[03/06/20, 15:53:22:311] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.308 Flannel users/info is ACTIVE 
+[03/06/20, 15:53:22:312] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.310 Flannel users/counts called with reason: flannel-call:users/counts 
+[03/06/20, 15:53:22:312] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.310 Flannel users/counts is ENQUEUED 
+[03/06/20, 15:53:22:314] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.312 Flannel users/counts called with reason: flannel-call:users/counts 
+[03/06/20, 15:53:22:314] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.312 Flannel users/counts is ENQUEUED 
+[03/06/20, 15:53:22:314] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.831 help.issues.list is RESOLVED 
+[03/06/20, 15:53:22:314] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.312 Flannel users/counts is ACTIVE 
+[03/06/20, 15:53:22:315] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.843 team.admins.list is RESOLVED 
+[03/06/20, 15:53:22:315] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.310 Flannel users/counts is ACTIVE 
+[03/06/20, 15:53:22:352] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.891 apps.actions.list is RESOLVED 
+[03/06/20, 15:53:22:355] info: [UNKNOWN-FETCH-MANAGER] (T3ZBW1Z0D) received _all_actions (1) 
+[03/06/20, 15:53:22:373] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 15:53:22:399] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:53:22:402] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:53:22:421] info: Store: STORE_ENTERPRISE_ID_PAIR {
+  "enterpriseId": null
+} 
+[03/06/20, 15:53:22:430] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.993 i18n.locale.suggestNew is RESOLVED 
+[03/06/20, 15:53:22:470] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.002 client.counts is RESOLVED 
+[03/06/20, 15:53:22:482] info: [COUNTS] (T3ZBW1Z0D) Applying counts to channels 
+[03/06/20, 15:53:22:495] info: [COUNTS] (T3ZBW1Z0D) Threads has_unreads:false mention_count:0 
+[03/06/20, 15:53:22:497] info: [COUNTS] (T3ZBW1Z0D) Completed counts processing 
+[03/06/20, 15:53:22:527] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.012 conversations.history is RESOLVED 
+[03/06/20, 15:53:22:528] info: [SERVICE-WORKER] registration success {} 
+[03/06/20, 15:53:22:528] info: [SERVICE-WORKER-STATE] initial installing 
+[03/06/20, 15:53:22:546] info: [PINS] (T3ZBW1Z0D) Pins count updated for channel C3YJR62FK: 0 
+[03/06/20, 15:53:22:548] info: [SERVICE-WORKER-STATE] change installed 20ms 
+[03/06/20, 15:53:22:549] info: [SERVICE-WORKER-STATE] change activating 
+[03/06/20, 15:53:22:549] info: [SERVICE-WORKER-STATE] change activated 0ms 
+[03/06/20, 15:53:22:564] info: [MESSAGE-LIST] (T3ZBW1Z0D) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 1 
+[03/06/20, 15:53:22:572] info: [CHECK-UNREADS] (T3ZBW1Z0D) unreadLineVisible updated: false -> true 
+[03/06/20, 15:53:22:722] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490202.118 dnd.info is RESOLVED 
+[03/06/20, 15:53:22:724] info: [DND] (T3ZBW1Z0D) Fetched DND info for the following member: U3Z9ACBLJ 
+[03/06/20, 15:53:22:726] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 15:53:22:728] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 15:53:22:931] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after unread line became visible 
+[03/06/20, 15:53:22:932] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 15:53:23:085] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.310 Flannel users/counts is RESOLVED 
+[03/06/20, 15:53:23:098] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.308 Flannel users/info is RESOLVED 
+[03/06/20, 15:53:23:114] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.312 Flannel users/counts is RESOLVED 
+[03/06/20, 15:53:23:114] info: [API-Q] (T3ZBW1Z0D) noversion-1583490202.305 Flannel users/info is RESOLVED 
+[03/06/20, 15:53:23:135] info: [UNKNOWN-FETCH-MANAGER] (T3ZBW1Z0D) received U3Z9ACBLJ,USLACKBOT (1) 
+[03/06/20, 15:53:23:146] info: [API-Q] (T3ZBW1Z0D) noversion-1583490203.143 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 15:53:23:146] info: [API-Q] (T3ZBW1Z0D) noversion-1583490203.143 Flannel users/info is ENQUEUED 
+[03/06/20, 15:53:23:147] info: [API-Q] (T3ZBW1Z0D) noversion-1583490203.143 Flannel users/info is ACTIVE 
+[03/06/20, 15:53:23:297] info: [API-Q] (T3ZBW1Z0D) noversion-1583490203.143 Flannel users/info is RESOLVED 
+[03/06/20, 15:53:23:370] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490201.853 users.channelSections.list is RESOLVED 
+[03/06/20, 15:53:23:373] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490203.370 users.prefs.set called with reason: prefs-api/setUserPrefByApi 
+[03/06/20, 15:53:23:373] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490203.370 users.prefs.set is ENQUEUED 
+[03/06/20, 15:53:23:374] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490203.370 users.prefs.set is ACTIVE 
+[03/06/20, 15:53:23:676] info: fetchResourceAsBuffer: returning arrayBuffer 
+[03/06/20, 15:53:23:677] info: dictionaryDownloader: verifying hash 
+[03/06/20, 15:53:23:735] info: SpellChecker::downloadDictionary: Dictionary is ready for  {
+  "language": "en"
+} 
+[03/06/20, 15:53:23:817] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490203.370 users.prefs.set is RESOLVED 
+[03/06/20, 15:53:24:011] info: assignSpellchecker: spellCheckerTable added new checker for 'en' 
+[03/06/20, 15:53:24:012] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker 
+[03/06/20, 15:53:24:013] info: switchDictionary: switching dictionary to check spell from 'null' to 'en' 
+[03/06/20, 15:53:24:013] info: SpellChecker::switchDictionary: SpellChecker enabled for language {
+  "language": "en"
+} 
+[03/06/20, 15:53:24:013] info: SpellChecker::enableSpellCheckerLanguageDetector: spellchecker dictionary switched 
+[03/06/20, 15:53:24:171] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 15:53:24:186] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:53:24:223] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:53:24:241] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:53:24:241] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:53:24:242] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:53:24:242] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:53:25:163] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:53:25:215] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:53:25:237] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1031,
+      "width": 960,
+      "x": 960,
+      "y": 28
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/06/20, 15:53:25:242] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[03/06/20, 15:53:30:181] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490210.178 users.prefs.set called with reason: prefs-api/setUserPrefByApi 
+[03/06/20, 15:53:30:181] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490210.178 users.prefs.set is ENQUEUED 
+[03/06/20, 15:53:30:182] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490210.178 users.prefs.set is ACTIVE 
+[03/06/20, 15:53:30:628] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490210.178 users.prefs.set is RESOLVED 
+[03/06/20, 15:53:35:503] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 15:53:35:518] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:53:35:555] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:54:13:374] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490253.371 channels.suggestions called with reason: channels-suggestions 
+[03/06/20, 15:54:13:374] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490253.371 channels.suggestions is ENQUEUED 
+[03/06/20, 15:54:13:374] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490253.371 channels.suggestions is ACTIVE 
+[03/06/20, 15:54:13:812] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490253.371 channels.suggestions is RESOLVED 
+[03/06/20, 15:54:21:994] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 15:54:22:332] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 15:54:22:340] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:54:22:345] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:54:22:370] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:54:22:370] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:54:22:370] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:54:22:370] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:54:25:662] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.660 search.autocomplete called with reason: no_reason_provided 
+[03/06/20, 15:54:25:662] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.660 search.autocomplete is ENQUEUED 
+[03/06/20, 15:54:25:662] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.660 search.autocomplete is ACTIVE 
+[03/06/20, 15:54:25:665] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Open Search 
+[03/06/20, 15:54:25:666] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Search is opening without query: Starting new search session 
+[03/06/20, 15:54:25:703] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.702 search.precache called with reason: no_reason_provided 
+[03/06/20, 15:54:25:703] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.702 search.precache is ENQUEUED 
+[03/06/20, 15:54:25:704] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.702 search.precache is ACTIVE 
+[03/06/20, 15:54:25:705] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.704 search.autocomplete.querySuggestions called with reason: no_reason_provided 
+[03/06/20, 15:54:25:705] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.704 search.autocomplete.querySuggestions is ENQUEUED 
+[03/06/20, 15:54:25:706] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.704 search.autocomplete.querySuggestions is ACTIVE 
+[03/06/20, 15:54:25:706] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.706 search.autocomplete.querySuggestions called with reason: no_reason_provided 
+[03/06/20, 15:54:25:706] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.706 search.autocomplete.querySuggestions is ENQUEUED 
+[03/06/20, 15:54:25:707] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.706 search.autocomplete.querySuggestions is ACTIVE 
+[03/06/20, 15:54:25:707] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.707 search.autocomplete.querySuggestions called with reason: no_reason_provided 
+[03/06/20, 15:54:25:708] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.707 search.autocomplete.querySuggestions is ENQUEUED 
+[03/06/20, 15:54:25:708] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.707 search.autocomplete.querySuggestions is ACTIVE 
+[03/06/20, 15:54:25:709] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.708 search.autocomplete.querySuggestions called with reason: no_reason_provided 
+[03/06/20, 15:54:25:709] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.708 search.autocomplete.querySuggestions is ENQUEUED 
+[03/06/20, 15:54:25:709] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.708 search.autocomplete.querySuggestions is ACTIVE 
+[03/06/20, 15:54:25:710] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.709 search.autocomplete.fileSuggestions called with reason: no_reason_provided 
+[03/06/20, 15:54:25:710] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.709 search.autocomplete.fileSuggestions is ENQUEUED 
+[03/06/20, 15:54:25:710] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.709 search.autocomplete.fileSuggestions is ACTIVE 
+[03/06/20, 15:54:26:181] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.660 search.autocomplete is RESOLVED 
+[03/06/20, 15:54:26:183] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.708 search.autocomplete.querySuggestions is RESOLVED 
+[03/06/20, 15:54:26:190] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.704 search.autocomplete.querySuggestions is RESOLVED 
+[03/06/20, 15:54:26:192] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.707 search.autocomplete.querySuggestions is RESOLVED 
+[03/06/20, 15:54:26:192] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.706 search.autocomplete.querySuggestions is RESOLVED 
+[03/06/20, 15:54:26:194] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.702 search.precache is RESOLVED 
+[03/06/20, 15:54:26:195] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490265.709 search.autocomplete.fileSuggestions is RESOLVED 
+[03/06/20, 15:54:26:573] info: Store: OPEN_CONTEXT_MENU {
+  "id": 1,
+  "params": "[REDACTED]"
+} 
+[03/06/20, 15:54:28:064] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490268.061 apps.actions.v2.list called with reason: list-all-app-actions 
+[03/06/20, 15:54:28:065] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490268.061 apps.actions.v2.list is ENQUEUED 
+[03/06/20, 15:54:28:065] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490268.061 apps.actions.v2.list is ACTIVE 
+[03/06/20, 15:54:28:073] info: [API-Q] (T3ZBW1Z0D) noversion-1583490268.070 Flannel users/search called with reason: flannel-call:users/search 
+[03/06/20, 15:54:28:073] info: [API-Q] (T3ZBW1Z0D) noversion-1583490268.070 Flannel users/search is ENQUEUED 
+[03/06/20, 15:54:28:073] info: [API-Q] (T3ZBW1Z0D) noversion-1583490268.070 Flannel users/search is ACTIVE 
+[03/06/20, 15:54:28:075] info: [API-Q] (T3ZBW1Z0D) noversion-1583490268.073 Flannel channels/search called with reason: flannel-call:channels/search 
+[03/06/20, 15:54:28:075] info: [API-Q] (T3ZBW1Z0D) noversion-1583490268.073 Flannel channels/search is ENQUEUED 
+[03/06/20, 15:54:28:076] info: [API-Q] (T3ZBW1Z0D) noversion-1583490268.073 Flannel channels/search is ACTIVE 
+[03/06/20, 15:54:28:102] info: [UNKNOWN-FETCH-MANAGER] (T3ZBW1Z0D) requesting _all_global_actions (1) 
+[03/06/20, 15:54:28:105] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490268.102 apps.actions.v2.list called with reason: list-all-app-actions 
+[03/06/20, 15:54:28:105] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490268.102 apps.actions.v2.list is ENQUEUED 
+[03/06/20, 15:54:28:105] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490268.102 apps.actions.v2.list is ACTIVE 
+[03/06/20, 15:54:28:401] info: [API-Q] (T3ZBW1Z0D) noversion-1583490268.073 Flannel channels/search is RESOLVED 
+[03/06/20, 15:54:28:401] info: [API-Q] (T3ZBW1Z0D) noversion-1583490268.070 Flannel users/search is RESOLVED 
+[03/06/20, 15:54:28:497] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490268.061 apps.actions.v2.list is RESOLVED 
+[03/06/20, 15:54:28:540] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490268.102 apps.actions.v2.list is RESOLVED 
+[03/06/20, 15:54:28:542] info: [UNKNOWN-FETCH-MANAGER] (T3ZBW1Z0D) received _all_global_actions (1) 
+[03/06/20, 15:54:30:920] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490270.911 client.counts called with reason: client-counts-api/fetchClientCounts 
+[03/06/20, 15:54:30:921] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490270.911 client.counts is ENQUEUED 
+[03/06/20, 15:54:30:923] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490270.911 client.counts is ACTIVE 
+[03/06/20, 15:54:31:347] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490270.911 client.counts is RESOLVED 
+[03/06/20, 15:54:31:359] info: [COUNTS] (T3ZBW1Z0D) Applying counts to channels 
+[03/06/20, 15:54:31:377] info: [COUNTS] (T3ZBW1Z0D) Recounted C3YJR62FK; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[03/06/20, 15:54:31:378] info: [COUNTS] (T3ZBW1Z0D) Threads has_unreads:false mention_count:0 
+[03/06/20, 15:54:31:378] info: [COUNTS] (T3ZBW1Z0D) Completed counts processing 
+[03/06/20, 15:54:31:396] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Accepted search query 
+[03/06/20, 15:54:31:397] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Accepting query suggestion 
+[03/06/20, 15:54:31:409] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Starting new search 
+[03/06/20, 15:54:31:410] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Fetching all search results 
+[03/06/20, 15:54:31:428] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.426 search.modules called with reason: search-new-query 
+[03/06/20, 15:54:31:428] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.426 search.modules is ENQUEUED 
+[03/06/20, 15:54:31:429] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.426 search.modules is ACTIVE 
+[03/06/20, 15:54:31:430] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.429 search.modules called with reason: search-new-query 
+[03/06/20, 15:54:31:430] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.429 search.modules is ENQUEUED 
+[03/06/20, 15:54:31:431] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.429 search.modules is ACTIVE 
+[03/06/20, 15:54:31:433] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.431 search.modules called with reason: search-new-query 
+[03/06/20, 15:54:31:433] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.431 search.modules is ENQUEUED 
+[03/06/20, 15:54:31:433] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.431 search.modules is ACTIVE 
+[03/06/20, 15:54:31:435] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.434 search.modules called with reason: search-new-query 
+[03/06/20, 15:54:31:436] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.434 search.modules is ENQUEUED 
+[03/06/20, 15:54:31:436] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.434 search.modules is ACTIVE 
+[03/06/20, 15:54:31:439] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.437 search.modules called with reason: search-new-query 
+[03/06/20, 15:54:31:439] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.437 search.modules is ENQUEUED 
+[03/06/20, 15:54:31:439] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.437 search.modules is ACTIVE 
+[03/06/20, 15:54:31:442] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.440 search.modules called with reason: search-new-query 
+[03/06/20, 15:54:31:442] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.440 search.modules is ENQUEUED 
+[03/06/20, 15:54:31:444] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.442 search.modules called with reason: search-new-query 
+[03/06/20, 15:54:31:444] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.442 search.modules is ENQUEUED 
+[03/06/20, 15:54:31:446] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.444 search.save called with reason: no_reason_provided 
+[03/06/20, 15:54:31:446] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.444 search.save is ENQUEUED 
+[03/06/20, 15:54:31:446] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.444 search.save is ACTIVE 
+[03/06/20, 15:54:31:902] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.431 search.modules is RESOLVED 
+[03/06/20, 15:54:31:904] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.440 search.modules is ACTIVE 
+[03/06/20, 15:54:31:908] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Channels results loaded successfully 
+[03/06/20, 15:54:31:922] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.444 search.save is RESOLVED 
+[03/06/20, 15:54:31:923] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.429 search.modules is RESOLVED 
+[03/06/20, 15:54:31:924] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.442 search.modules is ACTIVE 
+[03/06/20, 15:54:31:925] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.434 search.modules is RESOLVED 
+[03/06/20, 15:54:31:926] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.437 search.modules is RESOLVED 
+[03/06/20, 15:54:31:927] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Files results loaded successfully 
+[03/06/20, 15:54:31:935] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) People results loaded successfully 
+[03/06/20, 15:54:31:953] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Facets module results loaded successfully 
+[03/06/20, 15:54:32:010] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.426 search.modules is RESOLVED 
+[03/06/20, 15:54:32:013] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Message results loaded successfully 
+[03/06/20, 15:54:32:377] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.440 search.modules is RESOLVED 
+[03/06/20, 15:54:32:381] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Facets module results loaded successfully 
+[03/06/20, 15:54:32:397] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490271.442 search.modules is RESOLVED 
+[03/06/20, 15:54:32:424] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Facets module results loaded successfully 
+[03/06/20, 15:54:34:036] warn: Couldn't complete metrics measurement for start mark 'universal_search_search_accept_T3ZBW1Z0D' 
+[03/06/20, 15:54:34:721] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Close Search 
+[03/06/20, 15:54:34:722] info: [IMPROVED_SEARCH] (T3ZBW1Z0D) Search closing with active query: Starting timeout to clear session 
+[03/06/20, 15:54:38:594] info: [ACTION:CHANNEL-SIDEBAR] Selected Vadd_channel 
+[03/06/20, 15:54:38:637] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490278.635 team.listExternal called with reason: channel-browser-filter 
+[03/06/20, 15:54:38:637] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490278.635 team.listExternal is ENQUEUED 
+[03/06/20, 15:54:38:637] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490278.635 team.listExternal is ACTIVE 
+[03/06/20, 15:54:38:871] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490278.862 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:38:874] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490278.862 search.modules is ENQUEUED 
+[03/06/20, 15:54:38:875] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490278.862 search.modules is ACTIVE 
+[03/06/20, 15:54:39:179] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490278.635 team.listExternal is RESOLVED 
+[03/06/20, 15:54:39:351] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490278.862 search.modules is RESOLVED 
+[03/06/20, 15:54:39:456] info: Store: OPEN_CONTEXT_MENU {
+  "id": 1,
+  "params": "[REDACTED]"
+} 
+[03/06/20, 15:54:39:572] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490279.563 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:39:573] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490279.563 search.modules is ENQUEUED 
+[03/06/20, 15:54:39:574] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490279.563 search.modules is ACTIVE 
+[03/06/20, 15:54:40:084] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490279.563 search.modules is RESOLVED 
+[03/06/20, 15:54:40:589] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490280.578 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:40:589] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490280.578 search.modules is ENQUEUED 
+[03/06/20, 15:54:40:590] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490280.578 search.modules is ACTIVE 
+[03/06/20, 15:54:41:048] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490280.578 search.modules is RESOLVED 
+[03/06/20, 15:54:41:269] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490281.258 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:41:269] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490281.258 search.modules is ENQUEUED 
+[03/06/20, 15:54:41:271] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490281.258 search.modules is ACTIVE 
+[03/06/20, 15:54:41:837] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490281.258 search.modules is RESOLVED 
+[03/06/20, 15:54:45:147] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490285.138 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:45:147] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490285.138 search.modules is ENQUEUED 
+[03/06/20, 15:54:45:149] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490285.138 search.modules is ACTIVE 
+[03/06/20, 15:54:45:201] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490285.138 search.modules is REJECTED: promise was cancelled 
+[03/06/20, 15:54:45:985] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490285.975 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:45:986] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490285.975 search.modules is ENQUEUED 
+[03/06/20, 15:54:45:988] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490285.975 search.modules is ACTIVE 
+[03/06/20, 15:54:46:022] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490285.975 search.modules is REJECTED: promise was cancelled 
+[03/06/20, 15:54:46:470] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490286.462 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:46:471] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490286.462 search.modules is ENQUEUED 
+[03/06/20, 15:54:46:472] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490286.462 search.modules is ACTIVE 
+[03/06/20, 15:54:46:492] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490286.462 search.modules is REJECTED: promise was cancelled 
+[03/06/20, 15:54:46:720] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490286.711 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:46:720] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490286.711 search.modules is ENQUEUED 
+[03/06/20, 15:54:46:722] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490286.711 search.modules is ACTIVE 
+[03/06/20, 15:54:46:813] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490286.711 search.modules is REJECTED: promise was cancelled 
+[03/06/20, 15:54:47:030] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490287.022 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:47:032] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490287.022 search.modules is ENQUEUED 
+[03/06/20, 15:54:47:033] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490287.022 search.modules is ACTIVE 
+[03/06/20, 15:54:47:570] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490287.022 search.modules is RESOLVED 
+[03/06/20, 15:54:47:792] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490287.783 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:47:793] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490287.783 search.modules is ENQUEUED 
+[03/06/20, 15:54:47:795] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490287.783 search.modules is ACTIVE 
+[03/06/20, 15:54:47:814] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490287.783 search.modules is REJECTED: promise was cancelled 
+[03/06/20, 15:54:48:040] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490288.031 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:48:041] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490288.031 search.modules is ENQUEUED 
+[03/06/20, 15:54:48:042] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490288.031 search.modules is ACTIVE 
+[03/06/20, 15:54:48:595] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490288.031 search.modules is RESOLVED 
+[03/06/20, 15:54:48:814] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490288.804 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:48:815] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490288.804 search.modules is ENQUEUED 
+[03/06/20, 15:54:48:816] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490288.804 search.modules is ACTIVE 
+[03/06/20, 15:54:49:319] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490288.804 search.modules is RESOLVED 
+[03/06/20, 15:54:51:680] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490291.671 search.modules called with reason: channel-browser 
+[03/06/20, 15:54:51:680] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490291.671 search.modules is ENQUEUED 
+[03/06/20, 15:54:51:682] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490291.671 search.modules is ACTIVE 
+[03/06/20, 15:54:52:129] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490291.671 search.modules is REJECTED: promise was cancelled 
+[03/06/20, 15:54:57:716] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490297.712 search.autocomplete called with reason: no_reason_provided 
+[03/06/20, 15:54:57:717] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490297.712 search.autocomplete is ENQUEUED 
+[03/06/20, 15:54:57:718] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490297.712 search.autocomplete is ACTIVE 
+[03/06/20, 15:54:57:730] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490297.728 inprodsurveys.get called with reason: no_reason_provided 
+[03/06/20, 15:54:57:730] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490297.728 inprodsurveys.get is ENQUEUED 
+[03/06/20, 15:54:57:731] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490297.728 inprodsurveys.get is ACTIVE 
+[03/06/20, 15:54:58:150] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490297.712 search.autocomplete is RESOLVED 
+[03/06/20, 15:54:58:181] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490297.728 inprodsurveys.get is RESOLVED 
+[03/06/20, 15:55:22:355] info: [ACTION:WORKSPACES] Add workspace 
+[03/06/20, 15:55:22:753] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 15:55:22:764] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:55:22:766] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:55:23:719] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:55:23:721] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:55:23:781] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1031,
+      "width": 640,
+      "x": 640,
+      "y": 28
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/06/20, 15:55:23:787] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[03/06/20, 15:55:25:713] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490325.703 search.precache called with reason: no_reason_provided 
+[03/06/20, 15:55:25:714] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490325.703 search.precache is ENQUEUED 
+[03/06/20, 15:55:25:715] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490325.703 search.precache is ACTIVE 
+[03/06/20, 15:55:26:327] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490325.703 search.precache is RESOLVED 
+[03/06/20, 15:55:50:123] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 15:55:50:129] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:55:50:132] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:55:50:145] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:55:50:147] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:55:50:147] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:55:50:148] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:55:50:432] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 15:55:50:453] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:55:50:457] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:57:08:686] warn: SOCKET-MANAGER (T3ZBW1Z0D) Socket was closed because #1006: generic error 
+[03/06/20, 15:57:08:688] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connected to error 
+[03/06/20, 15:57:08:690] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in error state for up to 10000 ms 
+[03/06/20, 15:57:08:692] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from error to wait_for_rate_limit 
+[03/06/20, 15:57:08:693] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_rate_limit state for up to 120000 ms 
+[03/06/20, 15:57:08:694] info: [SOCKET-MANAGER] (T3ZBW1Z0D) backing off: will wait for 679 ms 
+[03/06/20, 15:57:09:375] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_rate_limit to connect 
+[03/06/20, 15:57:09:385] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connect state for up to 10000 ms 
+[03/06/20, 15:57:09:393] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connect to checking_fast_reconnect 
+[03/06/20, 15:57:09:394] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in checking_fast_reconnect state for up to 60000 ms 
+[03/06/20, 15:57:09:398] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Attempting to connect to primary region 
+[03/06/20, 15:57:09:399] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from checking_fast_reconnect to fast_reconnecting 
+[03/06/20, 15:57:09:399] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in fast_reconnecting state for up to 20000 ms 
+[03/06/20, 15:57:09:901] info: [SOCKET-MANAGER] (T3ZBW1Z0D) received an error of type 401: invalid_auth 
+[03/06/20, 15:57:09:904] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Got invalid_auth when trying to fast reconnect; clearing fast reconnect URL and trying slow reconnection instead 
+[03/06/20, 15:57:09:906] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Closing socket because #4106: received an "error" message from socket 
+[03/06/20, 15:57:09:906] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from fast_reconnecting to error 
+[03/06/20, 15:57:09:906] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in error state for up to 10000 ms 
+[03/06/20, 15:57:09:908] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from error to wait_for_rate_limit 
+[03/06/20, 15:57:09:908] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_rate_limit state for up to 120000 ms 
+[03/06/20, 15:57:09:911] info: [SOCKET-MANAGER] (T3ZBW1Z0D) backing off: will wait for 1337 ms 
+[03/06/20, 15:57:11:248] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_rate_limit to connect 
+[03/06/20, 15:57:11:250] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connect state for up to 10000 ms 
+[03/06/20, 15:57:11:251] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connect to checking_fast_reconnect 
+[03/06/20, 15:57:11:252] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in checking_fast_reconnect state for up to 60000 ms 
+[03/06/20, 15:57:11:253] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Attempting to connect to primary region 
+[03/06/20, 15:57:11:253] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from checking_fast_reconnect to prov_connect 
+[03/06/20, 15:57:11:254] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connect state for up to 10000 ms 
+[03/06/20, 15:57:11:255] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connect to prov_connecting 
+[03/06/20, 15:57:11:255] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connecting state for up to 35000 ms 
+[03/06/20, 15:57:11:552] info: [SOCKET-MANAGER] (T3ZBW1Z0D) received an error of type -1337: invalid_auth 
+[03/06/20, 15:57:11:553] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Closing socket because #4106: received an "error" message from socket 
+[03/06/20, 15:57:11:553] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connecting to error 
+[03/06/20, 15:57:11:553] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in error state for up to 10000 ms 
+[03/06/20, 15:57:11:559] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from error to wait_for_rate_limit 
+[03/06/20, 15:57:11:559] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_rate_limit state for up to 120000 ms 
+[03/06/20, 15:57:11:563] info: [SOCKET-MANAGER] (T3ZBW1Z0D) backing off: will wait for 3141 ms 
+[03/06/20, 15:57:11:569] info: [(T3ZBW1Z0D)] Handling start error 'invalid_auth' 
+[03/06/20, 15:57:11:570] info: [INVALID-AUTH] (T3ZBW1Z0D) Refetching credentials due to invalid_auth error, stay tuned... 
+[03/06/20, 15:57:11:571] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1583490431570 
+[03/06/20, 15:57:11:571] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client/T3ZBW1Z0D/C3YJR62FK 
+[03/06/20, 15:57:11:571] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=1583489985&return_to=%2Fclient%2FT3ZBW1Z0D%2FC3YJR62FK&teams=T3ZBW1Z0D 
+[03/06/20, 15:57:12:072] info: [AUTH] authCookieChanged: starting listening to the event 
+[03/06/20, 15:57:12:074] info: [AUTH] authCookieChanged 0: event happened, re-starting listening to the event, isFetchingAuth=true 
+[03/06/20, 15:57:12:088] info: [AUTH] credentials are ready 
+[03/06/20, 15:57:12:089] info: [AUTH] credentials are ready ({"added":[],"changed":[],"removed":["T3ZBW1Z0D"],"isNoOp":false,"usersChanged":false}) 
+[03/06/20, 15:57:12:090] info: [AUTH] credentials are ready; reloading to /client/T3ZBW1Z0D/C3YJR62FK 
+[03/06/20, 15:57:12:096] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "history": "[REDACTED]",
+  "id": 1,
+  "state": "page-will-navigate"
+} 
+[03/06/20, 15:57:12:097] warn: Couldn't complete metrics measurement for start mark 'session_lifespan' 
+[03/06/20, 15:57:12:097] warn: Couldn't complete metrics measurement for start mark 'session_lifespan_T3ZBW1Z0D' 
+[03/06/20, 15:57:12:099] info: [RELOAD] Page is about to unload. This might not be a reload, it could be a window close or navigation 
+[03/06/20, 15:57:12:099] info: [WINDOW-UNLOADING] Client window is unloading 
+[03/06/20, 15:57:12:101] info: [WINDOW-UNLOADING] (T3ZBW1Z0D) workspace handling window unloading event 
+[03/06/20, 15:57:12:107] info: [PERSIST] (T3ZBW1Z0D) Persisting state to storage because the window is about to unload 
+[03/06/20, 15:57:12:124] info: [PERSIST] (T3ZBW1Z0D) Successfully persisted state 
+[03/06/20, 15:57:12:230] info: Initializing local storage instance at path: /home/cvam/.config/Slack/local-settings.json 
+[03/06/20, 15:57:12:279] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:57:12:280] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:57:12:299] info: Read UUID from file successful {
+  "uuid": "419eca47-4251-5bb3-95a8-e1405c08944f"
+} 
+[03/06/20, 15:57:12:322] info: toggleAutoSpellcheck:: desktop interface is not available 
+[03/06/20, 15:57:12:323] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:57:12:329] info: Main window preload script finished {
+  "readyTime": 6.14519
+} 
+[03/06/20, 15:57:12:334] warn: %cUnhandled rejection TypeError: Failed to fetch color: red 
+[03/06/20, 15:57:12:347] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "loaded"
+} 
+[03/06/20, 15:57:12:476] info: [METRICS] Starting timers for metrics collection 
+[03/06/20, 15:57:12:492] info: [PERF] setupGantry_w begin 378ms 
+[03/06/20, 15:57:12:493] info: [APP] client 
+[03/06/20, 15:57:12:493] info: [DATE/TIME] 1583490432493 "2020-03-06T10:27:12.493Z" 
+[03/06/20, 15:57:12:494] info: [VERSION] version_hash: ee0f7d539f2b17fb5aa0184c9010edc7ad3fb547 
+[03/06/20, 15:57:12:494] info: [VERSION] version_ts: 1583470245 
+[03/06/20, 15:57:12:494] info: [VERSION] min_version_data_ts: 1581290339 
+[03/06/20, 15:57:12:494] info: [AUTH] authCookieChanged: started listening to the event 
+[03/06/20, 15:57:12:500] info: [AUTH] Need to re-fetch auth (sc=true, psc=1583489985, csc=1583490220, mfc=false, lf=1583489988, mf=1562000400) 
+[03/06/20, 15:57:12:501] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1583490432500 
+[03/06/20, 15:57:12:501] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client/T3ZBW1Z0D/C3YJR62FK 
+[03/06/20, 15:57:12:501] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=1583489985&return_to=%2Fclient%2FT3ZBW1Z0D%2FC3YJR62FK&teams=T3ZBW1Z0D 
+[03/06/20, 15:57:12:533] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[03/06/20, 15:57:12:544] info: [WD] All assets have reported back; s: 7; f: 0 
+[03/06/20, 15:57:12:545] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[03/06/20, 15:57:12:545] info: cld3Loader::loadModule: constructed module object for runtime 
+[03/06/20, 15:57:12:577] info: cld3Loader::initializeRuntime: successfully initialized module 
+[03/06/20, 15:57:12:577] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[03/06/20, 15:57:12:577] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[03/06/20, 15:57:12:924] info: [AUTH] credentials are ready 
+[03/06/20, 15:57:12:925] info: [AUTH] credentials are ready ({"added":[],"changed":[],"removed":["T3ZBW1Z0D"],"isNoOp":false,"usersChanged":false}) 
+[03/06/20, 15:57:12:926] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 77 bytes of data 
+[03/06/20, 15:57:12:927] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: T3ZBW1Z0D:U3Z9ACBLJ, teams now: (none) 
+[03/06/20, 15:57:12:930] info: [BOOT] Initial team ID: null 
+[03/06/20, 15:57:12:931] warn: [AUTH] Not signed into any teams 
+[03/06/20, 15:57:12:932] info: [AUTH] Navigating to sign-in 
+[03/06/20, 15:57:12:932] info: [AUTH] SSB Sign in. Expired team id: T3ZBW1Z0D {"orderedTeamIds":["T3ZBW1Z0D"],"prevTeams":{"T3ZBW1Z0D":{"id":"T3ZBW1Z0D","name":"cvam0000","url":"https://cvam0000.slack.com/","user_locale":"en-US","user_id":"U3Z9ACBLJ","icon":{"image_68":"https://a.slack-edge.com/80588/img/avatars-teams/ava_0026-68.png","image_88":"https://a.slack-edge.com/80588/img/avatars-teams/ava_0026-88.png","image_default":true},"isIAP1Enabled":false,"lastRoute":{"routeName":"ROUTE_ENTITY","params":{"teamId":"T3ZBW1Z0D","entityId":"C3YJR62FK"}},"versionDataTs":1583470245,"channelSidebarBackground":"#3F0E40","teamSwitcherBackground":"rgb(43,0,44)","textColor":"#FFFFFF","isExpired":true}}} 
+[03/06/20, 15:57:12:933] info: [AUTH] Expired team: T3ZBW1Z0D. Sign in url: https://app.slack.com/signin?redir=%2Fgantry%2Fauth%3Fapp%3Dclient%26lc%3D1583490220%26return_to%3D%252Fclient%252FT3ZBW1Z0D%252FC3YJR62FK%26teams%3DT3ZBW1Z0D&team=T3ZBW1Z0D 
+[03/06/20, 15:57:12:939] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "history": "[REDACTED]",
+  "id": 1,
+  "state": "page-will-navigate"
+} 
+[03/06/20, 15:57:13:194] info: Network status check {
+  "elapsed_time_ms": 410,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[03/06/20, 15:57:13:196] info: Store: SET_NETWORK_STATUS online 
+[03/06/20, 15:57:14:327] info: Initializing local storage instance at path: /home/cvam/.config/Slack/local-settings.json 
+[03/06/20, 15:57:14:389] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:57:14:390] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:57:14:414] info: Read UUID from file successful {
+  "uuid": "419eca47-4251-5bb3-95a8-e1405c08944f"
+} 
+[03/06/20, 15:57:14:443] info: toggleAutoSpellcheck:: desktop interface is not available 
+[03/06/20, 15:57:14:444] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:57:14:450] info: Main window preload script finished {
+  "readyTime": 6.565133
+} 
+[03/06/20, 15:57:14:875] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[03/06/20, 15:57:14:905] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[03/06/20, 15:57:15:755] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[03/06/20, 15:57:15:755] info: cld3Loader::loadModule: constructed module object for runtime 
+[03/06/20, 15:57:15:755] info: cld3Loader::initializeRuntime: successfully initialized module 
+[03/06/20, 15:57:15:755] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[03/06/20, 15:57:15:756] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[03/06/20, 15:57:15:756] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "history": "[REDACTED]",
+  "id": 1,
+  "state": "page-will-navigate"
+} 
+[03/06/20, 15:57:15:774] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[03/06/20, 15:57:15:775] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[03/06/20, 15:57:15:822] warn: error getActiveModelOb found no ob 
+[03/06/20, 15:57:15:822] warn: TS.boot_data.channel_id: undefined 
+[03/06/20, 15:57:15:823] warn: TS.boot_data.im_id: undefined 
+[03/06/20, 15:57:15:823] warn: TS.boot_data.group_id: undefined 
+[03/06/20, 15:57:15:823] warn: error getActiveModelOb found no ob 
+[03/06/20, 15:57:15:823] warn: TS.boot_data.channel_id: undefined 
+[03/06/20, 15:57:15:823] warn: TS.boot_data.im_id: undefined 
+[03/06/20, 15:57:15:823] warn: TS.boot_data.group_id: undefined 
+[03/06/20, 15:57:15:847] info: [BOOT] booted! pri:0 version:1583470245 start_ms:1583490434879 (968ms ago) 
+[03/06/20, 15:57:15:874] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[03/06/20, 15:57:15:900] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[03/06/20, 15:57:15:901] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["version"] 
+[03/06/20, 15:57:15:904] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[03/06/20, 15:57:15:904] info: [INFO] no TS.client on page:https://cvam0000.slack.com/ 
+[03/06/20, 15:57:15:909] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "loaded"
+} 
+[03/06/20, 15:57:15:920] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [version] 
+[03/06/20, 15:57:15:932] info: Initializing local storage instance at path: /home/cvam/.config/Slack/local-settings.json 
+[03/06/20, 15:57:15:993] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:57:15:993] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:57:16:017] info: Read UUID from file successful {
+  "uuid": "419eca47-4251-5bb3-95a8-e1405c08944f"
+} 
+[03/06/20, 15:57:16:048] info: toggleAutoSpellcheck:: desktop interface is not available 
+[03/06/20, 15:57:16:049] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:57:16:056] info: Main window preload script finished {
+  "readyTime": 7.351336
+} 
+[03/06/20, 15:57:16:059] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[03/06/20, 15:57:16:059] info: Network status check {
+  "elapsed_time_ms": 301,
+  "navigator_online": true,
+  "api_test": "offline"
+} 
+[03/06/20, 15:57:16:296] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[03/06/20, 15:57:16:388] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[03/06/20, 15:57:16:388] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[03/06/20, 15:57:16:388] info: cld3Loader::loadModule: constructed module object for runtime 
+[03/06/20, 15:57:16:973] info: cld3Loader::initializeRuntime: successfully initialized module 
+[03/06/20, 15:57:16:974] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[03/06/20, 15:57:16:974] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[03/06/20, 15:57:17:017] warn: error getActiveModelOb found no ob 
+[03/06/20, 15:57:17:017] warn: TS.boot_data.channel_id: undefined 
+[03/06/20, 15:57:17:017] warn: TS.boot_data.im_id: undefined 
+[03/06/20, 15:57:17:017] warn: TS.boot_data.group_id: undefined 
+[03/06/20, 15:57:17:018] warn: error getActiveModelOb found no ob 
+[03/06/20, 15:57:17:018] warn: TS.boot_data.channel_id: undefined 
+[03/06/20, 15:57:17:018] warn: TS.boot_data.im_id: undefined 
+[03/06/20, 15:57:17:018] warn: TS.boot_data.group_id: undefined 
+[03/06/20, 15:57:17:030] info: [BOOT] booted! pri:0 version:1583470245 start_ms:1583490436128 (901ms ago) 
+[03/06/20, 15:57:17:061] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[03/06/20, 15:57:17:084] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[03/06/20, 15:57:17:084] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[03/06/20, 15:57:17:086] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[03/06/20, 15:57:17:087] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["version"] 
+[03/06/20, 15:57:17:090] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[03/06/20, 15:57:17:091] info: [INFO] no TS.client on page:https://cvam0000.slack.com/ssb/expiration 
+[03/06/20, 15:57:17:096] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "loaded"
+} 
+[03/06/20, 15:57:17:097] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [version] 
+[03/06/20, 15:57:17:501] info: Network status check {
+  "elapsed_time_ms": 418,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[03/06/20, 15:57:17:502] info: Store: SET_NETWORK_STATUS online 
+[03/06/20, 15:57:18:198] info: [INFO] running without a user 
+[03/06/20, 15:57:19:500] info: Got window.open with URL: /ssb/signin_redirect 
+[03/06/20, 15:57:19:528] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[03/06/20, 15:57:19:528] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[03/06/20, 15:57:19:532] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[03/06/20, 15:57:19:538] info: [API-Q] (T00000000) ee0f7d53-1583490439.533 team.info called with reason: UnknownFetchManager 
+[03/06/20, 15:57:19:538] info: [API-Q] (T00000000) ee0f7d53-1583490439.533 team.info is ENQUEUED 
+[03/06/20, 15:57:19:539] info: [API-Q] (T00000000) ee0f7d53-1583490439.533 team.info is ACTIVE 
+[03/06/20, 15:57:19:738] info: [FOCUS-EVENT] Window blurred 
+[03/06/20, 15:57:19:945] info: [API-Q] (T00000000) ee0f7d53-1583490439.533 team.info is REJECTED: API not ok not_authed 
+[03/06/20, 15:57:19:947] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[03/06/20, 15:57:19:948] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[03/06/20, 15:57:39:451] info: [FOCUS-EVENT] Window focused 
+[03/06/20, 15:57:43:899] info: [FOCUS-EVENT] Window blurred 
+[03/06/20, 15:57:56:049] info: [FOCUS-EVENT] Window focused 
+[03/06/20, 15:57:56:945] info: [FOCUS-EVENT] Window blurred 
+[03/06/20, 15:58:05:017] info: [FOCUS-EVENT] Window focused 
+[03/06/20, 15:58:05:930] info: [FOCUS-EVENT] Window blurred 
+[03/06/20, 15:58:06:626] info: [FOCUS-EVENT] Window focused 
+[03/06/20, 15:58:07:153] info: Got window.open with URL: /ssb/signin_redirect 
+[03/06/20, 15:58:07:442] info: [FOCUS-EVENT] Window blurred 
+[03/06/20, 15:58:26:353] info: [FOCUS-EVENT] Window focused 
+[03/06/20, 15:58:26:803] info: [FOCUS-EVENT] Window blurred 
+[03/06/20, 15:58:27:050] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "history": "[REDACTED]",
+  "id": 1,
+  "state": "page-will-navigate"
+} 
+[03/06/20, 15:58:27:099] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 
+[03/06/20, 15:58:27:764] info: [FOCUS-EVENT] Window focused 
+[03/06/20, 15:58:28:289] info: Initializing local storage instance at path: /home/cvam/.config/Slack/local-settings.json 
+[03/06/20, 15:58:28:335] info: Got window.open with URL: /ssb/signin_redirect 
+[03/06/20, 15:58:28:344] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:58:28:345] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:58:28:367] info: Read UUID from file successful {
+  "uuid": "419eca47-4251-5bb3-95a8-e1405c08944f"
+} 
+[03/06/20, 15:58:28:395] info: toggleAutoSpellcheck:: desktop interface is not available 
+[03/06/20, 15:58:28:396] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[03/06/20, 15:58:28:402] info: Main window preload script finished {
+  "readyTime": 6.262286
+} 
+[03/06/20, 15:58:28:420] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "loaded"
+} 
+[03/06/20, 15:58:28:572] info: [METRICS] Starting timers for metrics collection 
+[03/06/20, 15:58:28:596] info: [PERF] setupGantry_w begin 444ms 
+[03/06/20, 15:58:28:597] info: [APP] client 
+[03/06/20, 15:58:28:597] info: [DATE/TIME] 1583490508597 "2020-03-06T10:28:28.597Z" 
+[03/06/20, 15:58:28:598] info: [VERSION] version_hash: ee0f7d539f2b17fb5aa0184c9010edc7ad3fb547 
+[03/06/20, 15:58:28:598] info: [VERSION] version_ts: 1583470245 
+[03/06/20, 15:58:28:598] info: [VERSION] min_version_data_ts: 1581290339 
+[03/06/20, 15:58:28:598] info: [AUTH] authCookieChanged: started listening to the event 
+[03/06/20, 15:58:28:608] info: [AUTH] Need to re-fetch auth (sc=true, psc=1583490220, csc=1583490295, mfc=false, lf=1583490221, mf=1562000400) 
+[03/06/20, 15:58:28:610] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1583490508609 
+[03/06/20, 15:58:28:610] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client/T3ZBW1Z0D 
+[03/06/20, 15:58:28:611] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=1583490220&return_to=%2Fclient%2FT3ZBW1Z0D&teams=T3ZBW1Z0D 
+[03/06/20, 15:58:28:626] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[03/06/20, 15:58:28:627] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[03/06/20, 15:58:28:628] info: cld3Loader::loadModule: constructed module object for runtime 
+[03/06/20, 15:58:28:628] info: cld3Loader::initializeRuntime: successfully initialized module 
+[03/06/20, 15:58:28:628] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[03/06/20, 15:58:28:628] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[03/06/20, 15:58:28:649] info: [WD] All assets have reported back; s: 7; f: 0 
+[03/06/20, 15:58:29:052] info: [AUTH] credentials are ready 
+[03/06/20, 15:58:29:056] info: [AUTH] credentials are ready ({"added":["T3ZBW1Z0D"],"changed":[],"removed":[],"isNoOp":false,"usersChanged":false}) 
+[03/06/20, 15:58:29:060] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 510 bytes of data 
+[03/06/20, 15:58:29:063] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: (none), teams now: T3ZBW1Z0D:U3Z9ACBLJ 
+[03/06/20, 15:58:29:076] info: [BOOT] Initial team ID: T3ZBW1Z0D 
+[03/06/20, 15:58:29:080] info: [PERF] setupGantry_w took 482.86ms 
+[03/06/20, 15:58:29:086] info: [PERF] bootClient_w begin 933ms 
+[03/06/20, 15:58:29:106] info: [BOOT] (T3ZBW1Z0D) Initializing boot 
+[03/06/20, 15:58:29:132] info: [BOOT] (T3ZBW1Z0D) Minimum supported data version is 1581290339; currently on undefined 
+[03/06/20, 15:58:29:133] info: [BOOT] (T3ZBW1Z0D) Skipping checking persisted store because if it exists it's out of date 
+[03/06/20, 15:58:29:134] info: [PERSIST] (T3ZBW1Z0D) Purging persisted model... 
+[03/06/20, 15:58:29:147] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.143 client.boot called with reason: initial-data 
+[03/06/20, 15:58:29:147] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.143 client.boot is ENQUEUED 
+[03/06/20, 15:58:29:148] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.143 client.boot is ACTIVE 
+[03/06/20, 15:58:29:150] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.150 api.features called 
+[03/06/20, 15:58:29:151] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.150 api.features is ENQUEUED 
+[03/06/20, 15:58:29:151] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.150 api.features is ACTIVE 
+[03/06/20, 15:58:29:152] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.151 experiments.getByUser called 
+[03/06/20, 15:58:29:152] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.151 experiments.getByUser is ENQUEUED 
+[03/06/20, 15:58:29:153] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.151 experiments.getByUser is ACTIVE 
+[03/06/20, 15:58:29:153] info: [BOOT] Couldn't determine boot channel. Falling back to default channel 
+[03/06/20, 15:58:29:167] info: [PERSIST] (T3ZBW1Z0D) Purged model 
+[03/06/20, 15:58:29:268] info: Network status check {
+  "elapsed_time_ms": 413,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[03/06/20, 15:58:29:269] info: Store: SET_NETWORK_STATUS online 
+[03/06/20, 15:58:29:876] info: [WD] All assets have reported back; s: 10; f: 0 
+[03/06/20, 15:58:29:877] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[03/06/20, 15:58:29:877] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[03/06/20, 15:58:29:877] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.150 api.features is RESOLVED 
+[03/06/20, 15:58:29:878] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.143 client.boot is RESOLVED 
+[03/06/20, 15:58:29:880] info: [BOOT-QUEUE] T3ZBW1Z0D noversion-1583490509.151 experiments.getByUser is RESOLVED 
+[03/06/20, 15:58:29:928] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[03/06/20, 15:58:29:948] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[03/06/20, 15:58:29:950] info: [BOOT] (T3ZBW1Z0D) Booting cold 
+[03/06/20, 15:58:29:992] info: [DESKTOP-MIDDLEWARE] (T3ZBW1Z0D) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[03/06/20, 15:58:29:992] info: [BOOT] (T3ZBW1Z0D) Dispatching boot data 
+[03/06/20, 15:58:29:992] info: [DESKTOP-MIDDLEWARE] (T3ZBW1Z0D) Forwarding redux payload to desktop ["version"] 
+[03/06/20, 15:58:30:002] info: [DESKTOP-MIDDLEWARE] (T3ZBW1Z0D) Forwarding redux payload to desktop ["theme","notificationPrefs","unreads"] 
+[03/06/20, 15:58:30:017] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[03/06/20, 15:58:30:021] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.018 emoji.list called with reason: loadEmoji 
+[03/06/20, 15:58:30:021] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.018 emoji.list is ENQUEUED 
+[03/06/20, 15:58:30:021] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.018 emoji.list is ACTIVE 
+[03/06/20, 15:58:30:022] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.021 commands.list called with reason: loadSlashCommands 
+[03/06/20, 15:58:30:023] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.021 commands.list is ENQUEUED 
+[03/06/20, 15:58:30:023] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.021 commands.list is ACTIVE 
+[03/06/20, 15:58:30:033] info: [BOOT] (T3ZBW1Z0D) Boot complete 
+[03/06/20, 15:58:30:035] info: [DESKTOP-SIDE-EFFECT] (T3ZBW1Z0D) Reacting to  {"type":"[32] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[03/06/20, 15:58:30:048] info: [DESKTOP-SIDE-EFFECT] (T3ZBW1Z0D) Team T3ZBW1Z0D booted, creating delegate 
+[03/06/20, 15:58:30:048] info: [DESKTOP-SIDE-EFFECT] (T3ZBW1Z0D) Attempted boot for all workspaces, signaling desktop 
+[03/06/20, 15:58:30:048] info: postLoadTaskSetup: loading spellchecker 
+[03/06/20, 15:58:30:050] info: [BOOT] (T3ZBW1Z0D) Connecting to socket 
+[03/06/20, 15:58:30:050] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from never_connected to prov_connect 
+[03/06/20, 15:58:30:050] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connect state for up to 10000 ms 
+[03/06/20, 15:58:30:050] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connect to prov_connecting 
+[03/06/20, 15:58:30:051] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connecting state for up to 35000 ms 
+[03/06/20, 15:58:30:051] error: [DESKTOP] 'desktop.stats.performance.timeSpentInPreload' is missing or not a function 
+[03/06/20, 15:58:30:054] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[03/06/20, 15:58:30:054] info: [BOOT] (T3ZBW1Z0D) (T3ZBW1Z0D) Mounting client 
+[03/06/20, 15:58:30:168] info: [HISTORY-NAVIGATION] Adding route to the history stack 
+[03/06/20, 15:58:30:256] error: [DESKTOP] 'desktop.stats.performance.timeSpentInPreload' is missing or not a function 
+[03/06/20, 15:58:30:258] info: [DRAFTS] (T3ZBW1Z0D) There are no channels with drafts 
+[03/06/20, 15:58:30:260] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.258 apps.getSidebarPrompts called with reason: initializeAppSuggestionLinksData 
+[03/06/20, 15:58:30:260] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.258 apps.getSidebarPrompts is ENQUEUED 
+[03/06/20, 15:58:30:260] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.258 apps.getSidebarPrompts is ACTIVE 
+[03/06/20, 15:58:30:261] info: [BOOT] (T3ZBW1Z0D) Beaconed client boot mount success 
+[03/06/20, 15:58:30:264] error: [DESKTOP] 'desktop.stats.performance.timeToPageLoad' is missing or not a function 
+[03/06/20, 15:58:30:266] info: [PERF] (T3ZBW1Z0D) Logged time to visible (TTV): 3165.1250000031723 
+[03/06/20, 15:58:30:296] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.295 promo.banner called with reason: fetch-megaphone-notification-data 
+[03/06/20, 15:58:30:296] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.295 promo.banner is ENQUEUED 
+[03/06/20, 15:58:30:297] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.295 promo.banner is ACTIVE 
+[03/06/20, 15:58:30:403] info: [CHECK-UNREADS] (T3ZBW1Z0D) unreadLineVisible updated: false -> true 
+[03/06/20, 15:58:30:428] info: [PERF] (T3ZBW1Z0D) First meaningful paint: 2105ms 
+[03/06/20, 15:58:30:428] info: [PERF] bootClient_w took 1343.65ms 
+[03/06/20, 15:58:30:429] info: [BOOT] Booting other teams:  
+[03/06/20, 15:58:30:431] info: [PERSIST] Purging persisted models, except for the following teamIds ["T3ZBW1Z0D"] 
+[03/06/20, 15:58:30:448] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after workspace became focused 
+[03/06/20, 15:58:30:448] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 15:58:30:455] info: Store: SYNC (Empty) 
+[03/06/20, 15:58:30:458] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["downloads","environment","windows","settings"] 
+[03/06/20, 15:58:30:458] info: Store: SELECTION_CHANGED T3ZBW1Z0D 
+[03/06/20, 15:58:30:458] info: Store: REDUX_UPDATE_FROM_WEBAPP (T3ZBW1Z0D) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[03/06/20, 15:58:30:459] info: Store: REDUX_UPDATE_FROM_WEBAPP (T3ZBW1Z0D) Changed keys [version] 
+[03/06/20, 15:58:30:459] info: Store: REDUX_UPDATE_FROM_WEBAPP (T3ZBW1Z0D) Changed keys [theme,notificationPrefs,unreads] 
+[03/06/20, 15:58:30:459] info: Store: SYNC Synced 1 workspaces with IDs [T3ZBW1Z0D] 
+[03/06/20, 15:58:30:461] info: Store: SELECTION_CHANGED T3ZBW1Z0D 
+[03/06/20, 15:58:30:461] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "webapp-loaded"
+} 
+[03/06/20, 15:58:30:466] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:30:469] info: [SERVICE-WORKER] registration success {} 
+[03/06/20, 15:58:30:469] info: [SERVICE-WORKER-STATE] initial activated 
+[03/06/20, 15:58:30:470] info: [UNKNOWN-FETCH-MANAGER] (T3ZBW1Z0D) requesting U3Z9ACBLJ,USLACKBOT (1) 
+[03/06/20, 15:58:30:476] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.473 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[03/06/20, 15:58:30:476] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.473 api.getFlannelHttpUrl is ENQUEUED 
+[03/06/20, 15:58:30:477] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.473 api.getFlannelHttpUrl is ACTIVE 
+[03/06/20, 15:58:30:492] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.486 team.whatsNew called with reason: boot-team 
+[03/06/20, 15:58:30:492] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.486 team.whatsNew is ENQUEUED 
+[03/06/20, 15:58:30:492] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.486 team.whatsNew is ACTIVE 
+[03/06/20, 15:58:30:501] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.496 help.issues.list called with reason: fetchAndUpsertHelpIssues 
+[03/06/20, 15:58:30:502] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.496 help.issues.list is ENQUEUED 
+[03/06/20, 15:58:30:502] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.496 help.issues.list is ACTIVE 
+[03/06/20, 15:58:30:513] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.504 team.admins.list called with reason: fetchAdminRolesRecursively 
+[03/06/20, 15:58:30:513] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.504 team.admins.list is ENQUEUED 
+[03/06/20, 15:58:30:513] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.504 team.admins.list is ACTIVE 
+[03/06/20, 15:58:30:515] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.512 users.channelSections.list called with reason: channel_sections_list 
+[03/06/20, 15:58:30:515] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.512 users.channelSections.list is ENQUEUED 
+[03/06/20, 15:58:30:516] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.512 users.channelSections.list is ACTIVE 
+[03/06/20, 15:58:30:549] info: loadAsmModule: loading hunspell-asm module 
+[03/06/20, 15:58:30:551] info: Store: STORE_ENTERPRISE_ID_PAIR {
+  "enterpriseId": null
+} 
+[03/06/20, 15:58:30:552] info: [UNKNOWN-FETCH-MANAGER] (T3ZBW1Z0D) requesting _all_actions (1) 
+[03/06/20, 15:58:30:556] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.551 apps.actions.list called with reason: fetch-app-actions 
+[03/06/20, 15:58:30:556] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.551 apps.actions.list is ENQUEUED 
+[03/06/20, 15:58:30:557] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.551 apps.actions.list is ACTIVE 
+[03/06/20, 15:58:30:560] info: toggleAutoSpellcheck: run spellchecker with language detector 
+[03/06/20, 15:58:30:560] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector 
+[03/06/20, 15:58:30:560] info: SpellChecker::spellgetLanguageRegionCode: found region supported language {
+  "code": "en"
+} 
+[03/06/20, 15:58:30:578] info: SpellChecker::getLanguageRegionCode: Intl returned locale {
+  "locale": "en-US"
+} 
+[03/06/20, 15:58:30:578] info: SpellChecker::getLanguageRegionCode: return language code with region {
+  "code": "en-us"
+} 
+[03/06/20, 15:58:30:579] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en 
+[03/06/20, 15:58:30:597] info: hunspell::loadModule: loading hunspell wasm binary {
+  "initOptions": {}
+} 
+[03/06/20, 15:58:30:597] info: hunspellLoader::loadModule: constructed module object for runtime 
+[03/06/20, 15:58:30:597] info: hunspellLoader::initializeRuntime: successfully initialized module 
+[03/06/20, 15:58:30:597] info: hunspellLoader::loadModule: initialized wasm binary Runtime 
+[03/06/20, 15:58:30:597] info: hunspell::hunspellLoader: mount path for bufferFile created at /2q98LqfhzojOKwhhNzwLCO_Kqpidyejmks3BkX9cMV7pT 
+[03/06/20, 15:58:30:597] info: loadAsmModule: asm module loaded successfully 
+[03/06/20, 15:58:30:621] info: switchDictionary: trying to switch spellchecker {
+  "language": "en"
+} 
+[03/06/20, 15:58:30:638] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connecting to prov_connected 
+[03/06/20, 15:58:30:638] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connected state for up to 60000 ms 
+[03/06/20, 15:58:30:643] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connected to prov_finalize 
+[03/06/20, 15:58:30:643] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_finalize state for up to 10000 ms 
+[03/06/20, 15:58:30:645] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_finalize to prov_finalizing 
+[03/06/20, 15:58:30:645] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_finalizing state for up to 10000 ms 
+[03/06/20, 15:58:30:647] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_finalizing to connected 
+[03/06/20, 15:58:30:648] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connected state for up to Infinity ms 
+[03/06/20, 15:58:30:649] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Connected to primary region 
+[03/06/20, 15:58:30:664] info: [MESSAGE-HISTORY] (T3ZBW1Z0D) Resetting reachedEnd 
+[03/06/20, 15:58:30:668] info: [UNREAD-COUNTS] (T3ZBW1Z0D) Fetching counts 
+[03/06/20, 15:58:30:671] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.668 client.counts called with reason: client-counts-api/fetchClientCounts 
+[03/06/20, 15:58:30:671] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.668 client.counts is ENQUEUED 
+[03/06/20, 15:58:30:672] info: [PERSIST] Purged persisted models [] 
+[03/06/20, 15:58:30:674] info: [MIN-VERSION] Starting client min-version poll. 
+[03/06/20, 15:58:30:675] info: SpellChecker::spellgetLanguageRegionCode: found region supported language {
+  "code": "en"
+} 
+[03/06/20, 15:58:30:676] info: SpellChecker::getLanguageRegionCode: Intl returned locale {
+  "locale": "en-US"
+} 
+[03/06/20, 15:58:30:676] info: SpellChecker::getLanguageRegionCode: return language code with region {
+  "code": "en-us"
+} 
+[03/06/20, 15:58:30:676] info: download: downloading dictionary for 'en-us' 
+[03/06/20, 15:58:30:676] info: fetchResourceAsBuffer: downloading {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.aff",
+  "cachePolicy": "default"
+} 
+[03/06/20, 15:58:30:676] info: fetchResourceAsBuffer: successfully downloaded {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.aff",
+  "status": 200,
+  "ok": true,
+  "redirected": false,
+  "statusText": "",
+  "url": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.aff",
+  "type": "cors"
+} 
+[03/06/20, 15:58:30:676] info: fetchResourceAsBuffer: returning arrayBuffer 
+[03/06/20, 15:58:30:677] info: fetchResourceAsBuffer: downloading {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.dic",
+  "cachePolicy": "default"
+} 
+[03/06/20, 15:58:30:677] info: fetchResourceAsBuffer: successfully downloaded {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.dic",
+  "status": 200,
+  "ok": true,
+  "redirected": false,
+  "statusText": "",
+  "url": "https://spellcheck.slack-edge.com/dictionaries/en-us/3/en-us.dic",
+  "type": "cors"
+} 
+[03/06/20, 15:58:30:677] info: fetchResourceAsBuffer: returning arrayBuffer 
+[03/06/20, 15:58:30:677] info: dictionaryDownloader: verifying hash 
+[03/06/20, 15:58:30:685] info: [HISTORY-FETCH] (T3ZBW1Z0D) Fetching history for message pane: C3YJR62FK oldest: 1485939024.917433 latest: null 
+[03/06/20, 15:58:30:686] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.685 conversations.history called with reason: message-pane/requestHistory 
+[03/06/20, 15:58:30:687] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.685 conversations.history is ENQUEUED 
+[03/06/20, 15:58:30:691] info: [CHECK-UNREADS] (T3ZBW1Z0D) unreadLineVisible updated: true -> false 
+[03/06/20, 15:58:30:701] info: SpellChecker::downloadDictionary: Dictionary is ready for  {
+  "language": "en"
+} 
+[03/06/20, 15:58:30:743] info: [PERSIST] (T3ZBW1Z0D) Successfully persisted state 
+[03/06/20, 15:58:30:802] info: [DND] (T3ZBW1Z0D) Preparing to fetch DND times for the following members: U3Z9ACBLJ 
+[03/06/20, 15:58:30:805] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.802 dnd.info called with reason: getDndTimesForSubscribedMembers 
+[03/06/20, 15:58:30:805] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.802 dnd.info is ENQUEUED 
+[03/06/20, 15:58:30:941] info: assignSpellchecker: spellCheckerTable added new checker for 'en' 
+[03/06/20, 15:58:30:942] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker 
+[03/06/20, 15:58:30:943] info: switchDictionary: switching dictionary to check spell from 'null' to 'en' 
+[03/06/20, 15:58:30:943] info: SpellChecker::switchDictionary: SpellChecker enabled for language {
+  "language": "en"
+} 
+[03/06/20, 15:58:30:943] info: SpellChecker::enableSpellCheckerLanguageDetector: spellchecker dictionary switched 
+[03/06/20, 15:58:31:000] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.018 emoji.list is RESOLVED 
+[03/06/20, 15:58:31:000] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.668 client.counts is ACTIVE 
+[03/06/20, 15:58:31:019] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.021 commands.list is RESOLVED 
+[03/06/20, 15:58:31:020] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.685 conversations.history is ACTIVE 
+[03/06/20, 15:58:31:079] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.258 apps.getSidebarPrompts is RESOLVED 
+[03/06/20, 15:58:31:080] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.802 dnd.info is ACTIVE 
+[03/06/20, 15:58:31:152] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.473 api.getFlannelHttpUrl is RESOLVED 
+[03/06/20, 15:58:31:154] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.486 team.whatsNew is RESOLVED 
+[03/06/20, 15:58:31:154] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.295 promo.banner is RESOLVED 
+[03/06/20, 15:58:31:155] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.504 team.admins.list is RESOLVED 
+[03/06/20, 15:58:31:156] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.551 apps.actions.list is RESOLVED 
+[03/06/20, 15:58:31:156] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.496 help.issues.list is RESOLVED 
+[03/06/20, 15:58:31:157] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.512 users.channelSections.list is RESOLVED 
+[03/06/20, 15:58:31:169] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.167 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 15:58:31:169] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.167 Flannel users/info is ENQUEUED 
+[03/06/20, 15:58:31:170] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.167 Flannel users/info is ACTIVE 
+[03/06/20, 15:58:31:173] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.169 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 15:58:31:173] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.169 Flannel users/info is ENQUEUED 
+[03/06/20, 15:58:31:173] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.169 Flannel users/info is ACTIVE 
+[03/06/20, 15:58:31:176] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.173 Flannel users/counts called with reason: flannel-call:users/counts 
+[03/06/20, 15:58:31:177] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.173 Flannel users/counts is ENQUEUED 
+[03/06/20, 15:58:31:177] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.173 Flannel users/counts is ACTIVE 
+[03/06/20, 15:58:31:182] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.177 Flannel users/counts called with reason: flannel-call:users/counts 
+[03/06/20, 15:58:31:183] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.177 Flannel users/counts is ENQUEUED 
+[03/06/20, 15:58:31:183] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.177 Flannel users/counts is ACTIVE 
+[03/06/20, 15:58:31:209] info: [UNKNOWN-FETCH-MANAGER] (T3ZBW1Z0D) received _all_actions (1) 
+[03/06/20, 15:58:31:439] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.668 client.counts is RESOLVED 
+[03/06/20, 15:58:31:453] info: [COUNTS] (T3ZBW1Z0D) Applying counts to channels 
+[03/06/20, 15:58:31:466] info: [COUNTS] (T3ZBW1Z0D) Threads has_unreads:false mention_count:0 
+[03/06/20, 15:58:31:468] info: [COUNTS] (T3ZBW1Z0D) Completed counts processing 
+[03/06/20, 15:58:31:487] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.685 conversations.history is RESOLVED 
+[03/06/20, 15:58:31:500] info: [PINS] (T3ZBW1Z0D) Pins count updated for channel C3YJR62FK: 0 
+[03/06/20, 15:58:31:516] info: [MESSAGE-LIST] (T3ZBW1Z0D) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 1 
+[03/06/20, 15:58:31:521] info: [CHECK-UNREADS] (T3ZBW1Z0D) unreadLineVisible updated: false -> true 
+[03/06/20, 15:58:31:529] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490510.802 dnd.info is RESOLVED 
+[03/06/20, 15:58:31:536] info: [DND] (T3ZBW1Z0D) Fetched DND info for the following member: U3Z9ACBLJ 
+[03/06/20, 15:58:31:539] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 15:58:31:541] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 15:58:31:730] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.167 Flannel users/info is RESOLVED 
+[03/06/20, 15:58:31:731] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.169 Flannel users/info is RESOLVED 
+[03/06/20, 15:58:31:733] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.177 Flannel users/counts is RESOLVED 
+[03/06/20, 15:58:31:734] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.173 Flannel users/counts is RESOLVED 
+[03/06/20, 15:58:31:738] info: [UNKNOWN-FETCH-MANAGER] (T3ZBW1Z0D) received U3Z9ACBLJ,USLACKBOT (1) 
+[03/06/20, 15:58:31:795] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.793 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 15:58:31:795] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.793 Flannel users/info is ENQUEUED 
+[03/06/20, 15:58:31:795] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.793 Flannel users/info is ACTIVE 
+[03/06/20, 15:58:31:837] info: [API-Q] (T3ZBW1Z0D) noversion-1583490511.793 Flannel users/info is RESOLVED 
+[03/06/20, 15:58:31:879] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after unread line became visible 
+[03/06/20, 15:58:31:879] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 15:58:39:024] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 15:58:39:031] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 15:58:39:033] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 15:58:39:037] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 15:58:39:038] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 15:58:39:043] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:39:044] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:39:061] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:58:39:063] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:58:39:063] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:58:39:063] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:58:39:063] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:58:39:064] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:58:39:088] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:39:090] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:39:093] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:39:097] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:39:110] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:58:39:110] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:58:39:110] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:58:39:110] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:58:40:021] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:40:025] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:40:074] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1031,
+      "width": 960,
+      "x": 960,
+      "y": 28
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/06/20, 15:58:40:080] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[03/06/20, 15:58:49:865] info: [ACTION:WORKSPACES] Add workspace 
+[03/06/20, 15:58:50:178] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 15:58:50:184] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:50:188] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:50:208] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:58:50:208] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 15:58:51:151] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:51:153] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:51:213] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1031,
+      "width": 640,
+      "x": 640,
+      "y": 28
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/06/20, 15:58:51:220] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[03/06/20, 15:58:55:466] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 15:58:55:487] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:55:493] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:55:509] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:58:55:510] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:58:55:510] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:58:55:510] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 15:58:55:601] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 15:58:55:607] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:55:611] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 15:58:55:628] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 15:58:55:628] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 15:59:19:092] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490559.086 channels.suggestions called with reason: channels-suggestions 
+[03/06/20, 15:59:19:092] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490559.086 channels.suggestions is ENQUEUED 
+[03/06/20, 15:59:19:096] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490559.086 channels.suggestions is ACTIVE 
+[03/06/20, 15:59:19:544] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490559.086 channels.suggestions is RESOLVED 
+[03/06/20, 15:59:30:659] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 15:59:34:107] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490574.093 client.counts called with reason: client-counts-api/fetchClientCounts 
+[03/06/20, 15:59:34:108] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490574.093 client.counts is ENQUEUED 
+[03/06/20, 15:59:34:109] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490574.093 client.counts is ACTIVE 
+[03/06/20, 15:59:34:598] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583490574.093 client.counts is RESOLVED 
+[03/06/20, 15:59:34:616] info: [COUNTS] (T3ZBW1Z0D) Applying counts to channels 
+[03/06/20, 15:59:34:628] info: [COUNTS] (T3ZBW1Z0D) Recounted C3YJR62FK; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[03/06/20, 15:59:34:629] info: [COUNTS] (T3ZBW1Z0D) Threads has_unreads:false mention_count:0 
+[03/06/20, 15:59:34:631] info: [COUNTS] (T3ZBW1Z0D) Completed counts processing 
+[03/06/20, 16:02:51:436] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 16:03:31:583] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:03:31:588] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:05:21:544] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 16:06:05:259] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 16:06:05:279] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:06:05:281] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:06:05:284] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:06:05:288] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:06:05:303] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:06:05:303] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:06:05:760] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 16:06:05:800] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:06:05:806] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:06:05:820] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:06:05:820] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 16:06:31:611] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 16:08:31:590] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:08:31:591] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:09:11:732] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 16:09:31:748] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 16:10:11:774] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 16:10:16:641] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 16:10:16:657] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:16:658] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:10:16:660] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:16:667] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:16:680] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:16:682] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:10:16:843] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 16:10:16:848] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:16:852] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:16:868] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:16:868] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 16:10:17:219] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 16:10:17:231] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:17:237] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:17:260] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:17:261] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:10:17:261] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:17:261] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:10:17:265] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 16:10:17:268] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:17:272] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:17:288] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:17:288] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 16:10:18:580] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 16:10:18:584] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 16:10:18:586] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 16:10:18:588] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 16:10:18:592] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 16:10:18:597] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:18:610] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:18:611] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:10:18:611] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:18:611] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:10:18:611] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:18:612] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:10:18:614] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:18:638] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:18:641] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:18:645] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:18:648] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:18:664] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:18:664] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:10:18:664] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:18:664] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/06/20, 16:10:19:017] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 16:10:19:034] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:19:039] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:19:590] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:19:597] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:19:646] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1031,
+      "width": 960,
+      "x": 960,
+      "y": 28
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[03/06/20, 16:10:19:649] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[03/06/20, 16:10:23:160] info: [FOCUS-EVENT] Client window focused 
+[03/06/20, 16:10:23:176] info: [FOCUS-EVENT] Client window blurred 
+[03/06/20, 16:10:23:199] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:23:199] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 16:10:23:202] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:23:204] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:23:209] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:23:210] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/06/20, 16:10:23:220] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/06/20, 16:10:23:220] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/06/20, 16:13:31:593] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:13:31:594] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:14:30:688] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 16:18:31:594] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:18:31:595] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:19:02:193] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 16:20:12:262] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 16:20:16:548] info: [SOCKET-MANAGER] (T3ZBW1Z0D) got offline event; moving to DISCONNECT as needed 
+[03/06/20, 16:20:16:550] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connected to disconnect 
+[03/06/20, 16:20:16:553] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in disconnect state for up to 10000 ms 
+[03/06/20, 16:20:16:554] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from disconnect to disconnecting 
+[03/06/20, 16:20:16:555] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in disconnecting state for up to 10000 ms 
+[03/06/20, 16:20:16:556] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Closing socket because #4100: disconnect requested 
+[03/06/20, 16:20:16:556] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from disconnecting to disconnected 
+[03/06/20, 16:20:16:557] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in disconnected state for up to 10000 ms 
+[03/06/20, 16:20:16:558] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Disconnected! Online? true 
+[03/06/20, 16:20:16:558] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from disconnected to wait_for_rate_limit 
+[03/06/20, 16:20:16:558] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_rate_limit state for up to 120000 ms 
+[03/06/20, 16:20:16:559] info: [SOCKET-MANAGER] (T3ZBW1Z0D) backing off: will wait for 589 ms 
+[03/06/20, 16:20:16:563] info: [PERSIST] (T3ZBW1Z0D) Persisting state to storage because we just lost network connectivity 
+[03/06/20, 16:20:16:582] info: [PERSIST] (T3ZBW1Z0D) Successfully persisted state 
+[03/06/20, 16:20:17:065] info: [NETWORK-CONNECTIVITY] Received offline event! Upserting that the client is offline. 
+[03/06/20, 16:20:17:151] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_rate_limit to wait_for_connectivity 
+[03/06/20, 16:20:17:152] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_connectivity state for up to 300000 ms 
+[03/06/20, 16:20:17:160] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 1 attempt(s); Retrying in 1000ms. 
+[03/06/20, 16:20:17:180] info: [API-Q] (T3ZBW1Z0D) Pausing queue because client is offline 
+[03/06/20, 16:20:18:160] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 2 attempt(s); Retrying in 1000ms. 
+[03/06/20, 16:20:19:162] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 3 attempt(s); Retrying in 1000ms. 
+[03/06/20, 16:20:20:163] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 4 attempt(s); Retrying in 1000ms. 
+[03/06/20, 16:20:20:553] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 16:20:21:164] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 5 attempt(s); Retrying in 1000ms. 
+[03/06/20, 16:20:22:165] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 6 attempt(s); Retrying in 1000ms. 
+[03/06/20, 16:20:23:166] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 1000ms. 
+[03/06/20, 16:20:24:168] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 8 attempt(s); Retrying in 1000ms. 
+[03/06/20, 16:20:25:168] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 9 attempt(s); Retrying in 1000ms. 
+[03/06/20, 16:20:26:168] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 10 attempt(s). 
+[03/06/20, 16:20:28:725] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[03/06/20, 16:20:28:726] info: Network status check {
+  "elapsed_time_ms": 11715,
+  "navigator_online": false,
+  "api_test": "offline"
+} 
+[03/06/20, 16:20:28:730] info: Store: SET_NETWORK_STATUS offline 
+[03/06/20, 16:20:30:550] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 16:20:40:537] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 20 attempt(s). 
+[03/06/20, 16:20:40:550] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 16:20:50:550] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 16:20:54:599] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 30 attempt(s). 
+[03/06/20, 16:20:56:647] info: [NETWORK-CONNECTIVITY] Received online event! Upserting that the client is online. 
+[03/06/20, 16:20:57:489] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[03/06/20, 16:20:57:490] info: Network status check {
+  "elapsed_time_ms": 375,
+  "navigator_online": true,
+  "api_test": "offline"
+} 
+[03/06/20, 16:21:00:551] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 16:21:10:550] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 16:21:10:678] info: [NETWORK-CONNECTIVITY] Successfully fetched resources from the CDN. We’re online! 
+[03/06/20, 16:21:10:679] info: [API-Q] (T3ZBW1Z0D) Unpausing queue, back online 
+[03/06/20, 16:21:10:683] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_connectivity to connect 
+[03/06/20, 16:21:10:683] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connect state for up to 10000 ms 
+[03/06/20, 16:21:10:690] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connect to checking_fast_reconnect 
+[03/06/20, 16:21:10:691] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in checking_fast_reconnect state for up to 60000 ms 
+[03/06/20, 16:21:10:694] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Attempting to connect to primary region 
+[03/06/20, 16:21:10:696] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from checking_fast_reconnect to fast_reconnecting 
+[03/06/20, 16:21:10:696] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in fast_reconnecting state for up to 20000 ms 
+[03/06/20, 16:21:10:925] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from fast_reconnecting to connected 
+[03/06/20, 16:21:10:926] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connected state for up to Infinity ms 
+[03/06/20, 16:21:10:934] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Connected to primary region 
+[03/06/20, 16:21:10:952] info: [EVENTLOG] (T3ZBW1Z0D) fr=true, lc=false, lt=1583490514.001000 
+[03/06/20, 16:21:12:288] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 16:21:52:327] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 16:22:10:997] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 16:22:22:340] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 16:23:31:596] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:23:31:597] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:24:52:477] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 16:25:52:526] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 16:26:52:591] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 16:27:22:612] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 16:28:31:597] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:28:31:598] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:30:23:242] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 16:30:23:242] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 16:33:31:599] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:33:31:600] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:37:03:204] info: Store: SET_SYSTEM_IDLE idle_presence 
+[03/06/20, 16:37:11:024] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 16:38:31:601] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:38:31:602] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:43:31:602] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:43:31:603] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:46:43:657] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 16:47:13:684] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 16:48:31:604] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:48:31:605] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:50:23:245] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 16:50:23:246] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 16:52:11:001] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 16:53:31:606] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:53:31:607] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 16:53:44:132] info: [API-Q] (T3ZBW1Z0D) noversion-1583493824.130 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 16:53:44:133] info: [API-Q] (T3ZBW1Z0D) noversion-1583493824.130 Flannel users/info is ENQUEUED 
+[03/06/20, 16:53:44:134] info: [API-Q] (T3ZBW1Z0D) noversion-1583493824.130 Flannel users/info is ACTIVE 
+[03/06/20, 16:53:44:457] info: [API-Q] (T3ZBW1Z0D) noversion-1583493824.130 Flannel users/info is RESOLVED 
+[03/06/20, 16:56:44:285] info: Store: SET_SYSTEM_IDLE idle_presence 
+[03/06/20, 16:58:31:608] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 16:58:31:609] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:03:31:610] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:03:31:611] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:07:11:000] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 17:08:31:612] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:08:31:613] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:10:23:246] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 17:10:23:247] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 17:13:31:614] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:13:31:615] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:18:31:615] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:18:31:616] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:22:11:000] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 17:23:31:617] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:23:31:618] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:27:13:393] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583495833.390 team.admins.list called with reason: fetchAdminRolesRecursively 
+[03/06/20, 17:27:13:393] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583495833.390 team.admins.list is ENQUEUED 
+[03/06/20, 17:27:13:394] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583495833.390 team.admins.list is ACTIVE 
+[03/06/20, 17:27:13:418] info: [PERSIST] (T3ZBW1Z0D) Successfully persisted state 
+[03/06/20, 17:27:13:980] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583495833.390 team.admins.list is RESOLVED 
+[03/06/20, 17:27:19:200] info: [MIN-VERSION] Checking to see if we should reload 
+[03/06/20, 17:27:19:204] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583495839.201 client.shouldReload called with reason: no_reason_provided 
+[03/06/20, 17:27:19:204] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583495839.201 client.shouldReload is ENQUEUED 
+[03/06/20, 17:27:19:204] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583495839.201 client.shouldReload is ACTIVE 
+[03/06/20, 17:27:19:627] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583495839.201 client.shouldReload is RESOLVED 
+[03/06/20, 17:27:19:628] info: [MIN-VERSION] No need to reload 
+[03/06/20, 17:28:31:618] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:28:31:619] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:30:23:247] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 17:30:23:248] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 17:33:31:620] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:33:31:621] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:37:11:000] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 17:38:31:620] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:38:31:620] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:43:31:622] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:43:31:623] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:48:31:623] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:48:31:623] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:50:23:248] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 17:50:23:249] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 17:50:33:170] info: [SOCKET-MANAGER] (T3ZBW1Z0D) got offline event; moving to DISCONNECT as needed 
+[03/06/20, 17:50:33:171] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connected to disconnect 
+[03/06/20, 17:50:33:174] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in disconnect state for up to 10000 ms 
+[03/06/20, 17:50:33:177] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from disconnect to disconnecting 
+[03/06/20, 17:50:33:177] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in disconnecting state for up to 10000 ms 
+[03/06/20, 17:50:33:179] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Closing socket because #4100: disconnect requested 
+[03/06/20, 17:50:33:179] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from disconnecting to disconnected 
+[03/06/20, 17:50:33:179] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in disconnected state for up to 10000 ms 
+[03/06/20, 17:50:33:181] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Disconnected! Online? true 
+[03/06/20, 17:50:33:181] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from disconnected to wait_for_rate_limit 
+[03/06/20, 17:50:33:181] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_rate_limit state for up to 120000 ms 
+[03/06/20, 17:50:33:183] info: [SOCKET-MANAGER] (T3ZBW1Z0D) backing off: will wait for 970 ms 
+[03/06/20, 17:50:33:184] info: [PERSIST] (T3ZBW1Z0D) Persisting state to storage because we just lost network connectivity 
+[03/06/20, 17:50:33:202] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 17:50:33:203] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info is ENQUEUED 
+[03/06/20, 17:50:33:203] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info is ACTIVE 
+[03/06/20, 17:50:33:218] info: [PERSIST] (T3ZBW1Z0D) Successfully persisted state 
+[03/06/20, 17:50:33:685] info: [NETWORK-CONNECTIVITY] Received offline event! Upserting that the client is offline. 
+[03/06/20, 17:50:34:155] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_rate_limit to wait_for_connectivity 
+[03/06/20, 17:50:34:156] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_connectivity state for up to 300000 ms 
+[03/06/20, 17:50:34:208] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 1 attempt(s); Retrying in 1000ms. 
+[03/06/20, 17:50:34:216] info: [API-Q] (T3ZBW1Z0D) Pausing queue because client is offline 
+[03/06/20, 17:50:35:211] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 2 attempt(s); Retrying in 1000ms. 
+[03/06/20, 17:50:36:212] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 3 attempt(s); Retrying in 1000ms. 
+[03/06/20, 17:50:37:213] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 4 attempt(s); Retrying in 1000ms. 
+[03/06/20, 17:50:38:214] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 5 attempt(s); Retrying in 1000ms. 
+[03/06/20, 17:50:39:215] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 6 attempt(s); Retrying in 1000ms. 
+[03/06/20, 17:50:40:217] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 1000ms. 
+[03/06/20, 17:50:40:925] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 17:50:41:218] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 8 attempt(s); Retrying in 1000ms. 
+[03/06/20, 17:50:42:219] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 9 attempt(s); Retrying in 1000ms. 
+[03/06/20, 17:50:43:220] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 10 attempt(s). 
+[03/06/20, 17:50:45:330] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info is ERROR: request did not complete 
+[03/06/20, 17:50:45:333] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info is retrying, attempt 2 
+[03/06/20, 17:50:45:334] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info is ENQUEUED 
+[03/06/20, 17:50:45:334] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[03/06/20, 17:50:45:334] info: Network status check {
+  "elapsed_time_ms": 11663,
+  "navigator_online": false,
+  "api_test": "offline"
+} 
+[03/06/20, 17:50:50:925] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 17:50:57:530] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 20 attempt(s). 
+[03/06/20, 17:51:00:925] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 17:51:10:925] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 17:51:11:556] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 30 attempt(s). 
+[03/06/20, 17:51:20:925] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 17:51:25:596] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 40 attempt(s). 
+[03/06/20, 17:51:30:925] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 17:51:33:204] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info is REJECTED: promise was cancelled 
+[03/06/20, 17:51:33:205] warn: %cUnhandled rejection Error: Request was cancelled
+    at flannel_request_FlannelRequest.cancel (https://a.slack-edge.com/bv1-8-8cacda2/gantry-shared.8fe6faa.min.js?cacheKey=gantry-1583470245:1:248275)
+    at https://a.slack-edge.com/bv1-8-8cacda2/gantry-shared.8fe6faa.min.js?cacheKey=gantry-1583470245:1:102499
+    at l (https://a.slack-edge.com/bv1-8-8cacda2/gantry-vendors.f9c600e.min.js?cacheKey=gantry-1583470245:1:117357)
+    at R.t._doInvokeOnCancel (https://a.slack-edge.com/bv1-8-8cacda2/gantry-vendors.f9c600e.min.js?cacheKey=gantry-1583470245:1:52029)
+    at c._drainQueue (https://a.slack-edge.com/bv1-8-8cacda2/gantry-vendors.f9c600e.min.js?cacheKey=gantry-1583470245:1:47906)
+    at c._drainQueues (https://a.slack-edge.com/bv1-8-8cacda2/gantry-vendors.f9c600e.min.js?cacheKey=gantry-1583470245:1:47984)
+    at drainQueues (https://a.slack-edge.com/bv1-8-8cacda2/gantry-vendors.f9c600e.min.js?cacheKey=gantry-1583470245:1:46115) color: red 
+[03/06/20, 17:51:39:635] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 50 attempt(s). 
+[03/06/20, 17:51:46:650] info: [NETWORK-CONNECTIVITY] Received online event! Upserting that the client is online. 
+[03/06/20, 17:51:47:463] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[03/06/20, 17:51:47:463] info: Network status check {
+  "elapsed_time_ms": 312,
+  "navigator_online": true,
+  "api_test": "offline"
+} 
+[03/06/20, 17:51:53:714] info: [NETWORK-CONNECTIVITY] Successfully fetched resources from the CDN. We’re online! 
+[03/06/20, 17:51:53:715] info: [API-Q] (T3ZBW1Z0D) Unpausing queue, back online 
+[03/06/20, 17:51:53:716] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info is retrying, attempt 2 
+[03/06/20, 17:51:53:717] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info is ENQUEUED 
+[03/06/20, 17:51:53:718] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info is ACTIVE 
+[03/06/20, 17:51:53:719] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_connectivity to connect 
+[03/06/20, 17:51:53:720] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connect state for up to 10000 ms 
+[03/06/20, 17:51:53:725] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connect to checking_fast_reconnect 
+[03/06/20, 17:51:53:726] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in checking_fast_reconnect state for up to 60000 ms 
+[03/06/20, 17:51:53:733] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Attempting to connect to primary region 
+[03/06/20, 17:51:53:733] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from checking_fast_reconnect to fast_reconnecting 
+[03/06/20, 17:51:53:734] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in fast_reconnecting state for up to 20000 ms 
+[03/06/20, 17:51:53:951] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from fast_reconnecting to connected 
+[03/06/20, 17:51:53:952] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connected state for up to Infinity ms 
+[03/06/20, 17:51:53:960] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Connected to primary region 
+[03/06/20, 17:51:53:976] info: [EVENTLOG] (T3ZBW1Z0D) fr=true, lc=false, lt=1583490514.001000 
+[03/06/20, 17:51:54:296] info: [API-Q] (T3ZBW1Z0D) noversion-1583497233.198 Flannel users/info is RESOLVED 
+[03/06/20, 17:52:53:978] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 17:53:31:623] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:53:31:623] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 17:58:31:625] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 17:58:31:626] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:03:31:627] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:03:31:628] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:07:53:979] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 18:08:31:628] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:08:31:629] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:10:23:250] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 18:10:23:251] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 18:13:31:630] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:13:31:631] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:18:31:632] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:18:31:633] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:20:56:290] info: [SOCKET-MANAGER] (T3ZBW1Z0D) got offline event; moving to DISCONNECT as needed 
+[03/06/20, 18:20:56:291] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connected to disconnect 
+[03/06/20, 18:20:56:294] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in disconnect state for up to 10000 ms 
+[03/06/20, 18:20:56:297] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from disconnect to disconnecting 
+[03/06/20, 18:20:56:297] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in disconnecting state for up to 10000 ms 
+[03/06/20, 18:20:56:298] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Closing socket because #4100: disconnect requested 
+[03/06/20, 18:20:56:298] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from disconnecting to disconnected 
+[03/06/20, 18:20:56:298] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in disconnected state for up to 10000 ms 
+[03/06/20, 18:20:56:300] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Disconnected! Online? true 
+[03/06/20, 18:20:56:300] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from disconnected to wait_for_rate_limit 
+[03/06/20, 18:20:56:300] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_rate_limit state for up to 120000 ms 
+[03/06/20, 18:20:56:302] info: [SOCKET-MANAGER] (T3ZBW1Z0D) backing off: will wait for 395 ms 
+[03/06/20, 18:20:56:303] info: [PERSIST] (T3ZBW1Z0D) Persisting state to storage because we just lost network connectivity 
+[03/06/20, 18:20:56:334] info: [PERSIST] (T3ZBW1Z0D) Successfully persisted state 
+[03/06/20, 18:20:56:699] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_rate_limit to connect 
+[03/06/20, 18:20:56:705] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connect state for up to 10000 ms 
+[03/06/20, 18:20:56:707] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connect to checking_fast_reconnect 
+[03/06/20, 18:20:56:708] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in checking_fast_reconnect state for up to 60000 ms 
+[03/06/20, 18:20:56:709] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Attempting to connect to primary region 
+[03/06/20, 18:20:56:709] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from checking_fast_reconnect to fast_reconnecting 
+[03/06/20, 18:20:56:709] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in fast_reconnecting state for up to 20000 ms 
+[03/06/20, 18:20:56:803] info: [NETWORK-CONNECTIVITY] Received offline event! Upserting that the client is offline. 
+[03/06/20, 18:20:57:122] info: [API-Q] (T3ZBW1Z0D) Pausing queue because client is offline 
+[03/06/20, 18:20:57:134] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 1 attempt(s); Retrying in 1000ms. 
+[03/06/20, 18:20:58:136] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 2 attempt(s); Retrying in 1000ms. 
+[03/06/20, 18:20:59:137] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 3 attempt(s); Retrying in 1000ms. 
+[03/06/20, 18:21:00:139] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 4 attempt(s); Retrying in 1000ms. 
+[03/06/20, 18:21:01:138] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 5 attempt(s); Retrying in 1000ms. 
+[03/06/20, 18:21:02:141] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 6 attempt(s); Retrying in 1000ms. 
+[03/06/20, 18:21:03:142] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 1000ms. 
+[03/06/20, 18:21:03:948] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 18:21:04:143] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 8 attempt(s); Retrying in 1000ms. 
+[03/06/20, 18:21:05:144] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 9 attempt(s); Retrying in 1000ms. 
+[03/06/20, 18:21:06:144] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 10 attempt(s). 
+[03/06/20, 18:21:08:449] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[03/06/20, 18:21:08:451] info: Network status check {
+  "elapsed_time_ms": 11659,
+  "navigator_online": false,
+  "api_test": "offline"
+} 
+[03/06/20, 18:21:08:452] error: WebSocket connection to 'wss://wss-primary.slack.com/?bots_as_apps=1&dp=1&flannel=3&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gIR_4YB_gHoNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AZ7_ggH-AXB3c3M6Ly9jZXJiZXJ1cy1qY3V4LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9fWk5USVhpdEtMVW5aXzVUM1d4aXVTRklXWlpOSXBnTy1zcXpkZHlmeS1sVmRVTm1GZXpYei1pNHhrU0tzcnlzRjFsQVJxQkpXMDhFUFVYV1UzSmJWR0VXOV9qdmlUSHJCdGx2MEFnd0hKeGV6OGJieHo2SmdJYVoteVRuTzRmQjVCQlN3NDNkeHVWT3ludHRRTGZMU2VWRksyN18xbTlSbGNmbXpRVVdnRTJ1UHB3UWVWMzBpS2d3cUkybzhYaDFZTnhZNklVUFR0Q29jOUNhdTZScXdPeTl4d2szVjc3M25vUWdDekN0OTJpUGwtbUQ2RlNEX1RyM0VaYnpDOHFaTWRlNVVvcmlFMEdwQzdUc1k5cXlaMVRmaVJUNTlYdG1GU0o4d29WUzlzUU1rVjdwMExpS3haUUFHVVg3bkhNagEJVDNaQlcxWjBEAglVM1o5QUNCTEoBDwEAAAAO1fQ9DSP-NZf-IAABIA6N1uBRzzKP945cUZnf5SDCecQFWEieIRfmTWBiHz4cAA&no_query_on_subscribe=1&sync_desync=1&token=[REDACTED]&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED 
+[03/06/20, 18:21:08:477] warn: SOCKET-MANAGER (T3ZBW1Z0D) Socket was closed because #1006: generic error 
+[03/06/20, 18:21:08:479] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from fast_reconnecting to error 
+[03/06/20, 18:21:08:479] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in error state for up to 10000 ms 
+[03/06/20, 18:21:08:481] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from error to wait_for_rate_limit 
+[03/06/20, 18:21:08:482] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_rate_limit state for up to 120000 ms 
+[03/06/20, 18:21:08:483] info: [SOCKET-MANAGER] (T3ZBW1Z0D) backing off: will wait for 1102 ms 
+[03/06/20, 18:21:09:587] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_rate_limit to wait_for_connectivity 
+[03/06/20, 18:21:09:588] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_connectivity state for up to 300000 ms 
+[03/06/20, 18:21:13:949] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 18:21:20:545] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 20 attempt(s). 
+[03/06/20, 18:21:23:948] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 18:21:33:948] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 18:21:34:582] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 30 attempt(s). 
+[03/06/20, 18:21:39:276] info: [NETWORK-CONNECTIVITY] Received online event! Upserting that the client is online. 
+[03/06/20, 18:21:43:948] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 18:21:46:012] info: [NETWORK-CONNECTIVITY] Successfully fetched resources from the CDN. We’re online! 
+[03/06/20, 18:21:46:013] info: [API-Q] (T3ZBW1Z0D) Unpausing queue, back online 
+[03/06/20, 18:21:46:015] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_connectivity to connect 
+[03/06/20, 18:21:46:016] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connect state for up to 10000 ms 
+[03/06/20, 18:21:46:025] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connect to checking_fast_reconnect 
+[03/06/20, 18:21:46:026] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in checking_fast_reconnect state for up to 60000 ms 
+[03/06/20, 18:21:46:034] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Attempting to connect to primary region 
+[03/06/20, 18:21:46:035] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from checking_fast_reconnect to fast_reconnecting 
+[03/06/20, 18:21:46:036] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in fast_reconnecting state for up to 20000 ms 
+[03/06/20, 18:21:46:340] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from fast_reconnecting to connected 
+[03/06/20, 18:21:46:341] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connected state for up to Infinity ms 
+[03/06/20, 18:21:46:349] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Connected to primary region 
+[03/06/20, 18:21:46:367] info: [EVENTLOG] (T3ZBW1Z0D) fr=true, lc=false, lt=1583490514.001000 
+[03/06/20, 18:21:46:424] info: Network status check {
+  "elapsed_time_ms": 6648,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[03/06/20, 18:21:46:426] info: Store: SET_NETWORK_STATUS online 
+[03/06/20, 18:21:53:948] warn: SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2 
+[03/06/20, 18:22:46:368] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 18:23:31:633] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:23:31:634] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:28:31:635] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:28:31:636] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:30:23:251] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 18:30:23:252] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 18:33:31:637] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:33:31:638] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:37:46:370] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 18:38:31:639] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:38:31:639] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:43:31:641] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:43:31:641] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:48:31:642] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:48:31:643] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:50:23:253] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 18:50:23:254] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 18:52:14:116] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583500934.112 team.admins.list called with reason: fetchAdminRolesRecursively 
+[03/06/20, 18:52:14:116] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583500934.112 team.admins.list is ENQUEUED 
+[03/06/20, 18:52:14:116] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583500934.112 team.admins.list is ACTIVE 
+[03/06/20, 18:52:14:805] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583500934.112 team.admins.list is RESOLVED 
+[03/06/20, 18:52:46:371] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 18:53:31:643] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:53:31:644] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 18:56:07:696] info: [MIN-VERSION] Checking to see if we should reload 
+[03/06/20, 18:56:07:698] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583501167.695 client.shouldReload called with reason: no_reason_provided 
+[03/06/20, 18:56:07:699] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583501167.695 client.shouldReload is ENQUEUED 
+[03/06/20, 18:56:07:699] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583501167.695 client.shouldReload is ACTIVE 
+[03/06/20, 18:56:07:711] info: [API-Q] (T3ZBW1Z0D) noversion-1583501167.709 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 18:56:07:711] info: [API-Q] (T3ZBW1Z0D) noversion-1583501167.709 Flannel users/info is ENQUEUED 
+[03/06/20, 18:56:07:712] info: [API-Q] (T3ZBW1Z0D) noversion-1583501167.709 Flannel users/info is ACTIVE 
+[03/06/20, 18:56:08:280] info: [API-Q] (T3ZBW1Z0D) noversion-1583501167.709 Flannel users/info is RESOLVED 
+[03/06/20, 18:56:08:281] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583501167.695 client.shouldReload is RESOLVED 
+[03/06/20, 18:56:08:301] info: [MIN-VERSION] No need to reload 
+[03/06/20, 18:58:31:646] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 18:58:31:647] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:03:31:647] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:03:31:648] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:07:46:370] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 19:08:31:649] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:08:31:649] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:10:23:254] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 19:10:23:255] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 19:13:31:651] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:13:31:652] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:18:31:652] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:18:31:654] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:22:46:370] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 19:23:31:654] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:23:31:655] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:28:31:656] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:28:31:657] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:30:23:255] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 19:30:23:256] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 19:33:31:658] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:33:31:659] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:37:46:370] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 19:38:31:659] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:38:31:660] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:43:31:661] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:43:31:662] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:48:31:663] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:48:31:664] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:50:23:257] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 19:50:23:258] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 19:52:46:370] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 19:53:31:664] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:53:31:665] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 19:58:31:666] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 19:58:31:667] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:03:31:668] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:03:31:669] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:07:46:372] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 20:08:31:669] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:08:31:670] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:10:23:258] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 20:10:23:259] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 20:13:31:671] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:13:31:672] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:18:31:673] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:18:31:674] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:22:46:370] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 20:23:31:674] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:23:31:675] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:24:56:205] info: [MIN-VERSION] Checking to see if we should reload 
+[03/06/20, 20:24:56:207] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583506496.204 client.shouldReload called with reason: no_reason_provided 
+[03/06/20, 20:24:56:207] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583506496.204 client.shouldReload is ENQUEUED 
+[03/06/20, 20:24:56:208] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583506496.204 client.shouldReload is ACTIVE 
+[03/06/20, 20:24:56:219] info: [API-Q] (T3ZBW1Z0D) noversion-1583506496.217 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 20:24:56:219] info: [API-Q] (T3ZBW1Z0D) noversion-1583506496.217 Flannel users/info is ENQUEUED 
+[03/06/20, 20:24:56:219] info: [API-Q] (T3ZBW1Z0D) noversion-1583506496.217 Flannel users/info is ACTIVE 
+[03/06/20, 20:24:56:222] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583506496.219 team.admins.list called with reason: fetchAdminRolesRecursively 
+[03/06/20, 20:24:56:222] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583506496.219 team.admins.list is ENQUEUED 
+[03/06/20, 20:24:56:222] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583506496.219 team.admins.list is ACTIVE 
+[03/06/20, 20:24:56:244] info: [PERSIST] (T3ZBW1Z0D) Successfully persisted state 
+[03/06/20, 20:24:56:768] info: [API-Q] (T3ZBW1Z0D) noversion-1583506496.217 Flannel users/info is RESOLVED 
+[03/06/20, 20:24:56:802] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583506496.219 team.admins.list is RESOLVED 
+[03/06/20, 20:24:56:802] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583506496.204 client.shouldReload is RESOLVED 
+[03/06/20, 20:24:56:821] info: [MIN-VERSION] No need to reload 
+[03/06/20, 20:28:31:676] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:28:31:677] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:30:23:259] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 20:30:23:260] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 20:33:31:678] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:33:31:679] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:37:46:370] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 20:38:31:679] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:38:31:680] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:43:31:680] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:43:31:681] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:48:31:682] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:48:31:683] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:50:23:260] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 20:50:23:261] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 20:52:46:370] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 20:53:31:684] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:53:31:685] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 20:58:31:686] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 20:58:31:687] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 21:03:31:687] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 21:03:31:688] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 21:04:07:307] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 21:04:27:333] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 21:04:37:336] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 21:05:07:380] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 21:06:37:477] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 21:06:57:506] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/06/20, 21:07:46:370] info: [CHECK-FOR-OLD-IMS] (T3ZBW1Z0D) Within limit: 2 
+[03/06/20, 21:08:31:689] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 21:08:31:690] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 21:10:23:261] info: [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[03/06/20, 21:10:23:262] info: [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[03/06/20, 21:13:31:691] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/06/20, 21:13:31:692] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/06/20, 21:14:28:005] info: Store: SET_SYSTEM_IDLE active 
+[03/06/20, 21:14:28:020] info: [API-Q] (T3ZBW1Z0D) noversion-1583509468.017 Flannel users/info called with reason: flannel-call:users/info 
+[03/06/20, 21:14:28:020] info: [API-Q] (T3ZBW1Z0D) noversion-1583509468.017 Flannel users/info is ENQUEUED 
+[03/06/20, 21:14:28:021] info: [API-Q] (T3ZBW1Z0D) noversion-1583509468.017 Flannel users/info is ACTIVE 
+[03/06/20, 21:14:28:342] info: [API-Q] (T3ZBW1Z0D) noversion-1583509468.017 Flannel users/info is RESOLVED 
+[03/06/20, 21:14:29:455] info: Store: SET_SUSPEND_STATUS false 
+[03/07/20, 14:07:34:622] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Sleeping 
+[03/07/20, 14:07:34:623] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connected to sleep 
+[03/07/20, 14:07:34:623] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in sleep state for up to 10000 ms 
+[03/07/20, 14:07:34:623] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from sleep to sleeping 
+[03/07/20, 14:07:34:623] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in sleeping state for up to 10000 ms 
+[03/07/20, 14:07:34:623] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Closing socket because #4102: client is going to sleep 
+[03/07/20, 14:07:34:624] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from sleeping to asleep 
+[03/07/20, 14:07:34:624] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in asleep state for up to Infinity ms 
+[03/07/20, 14:07:34:624] info: [SOCKET-MANAGER] (T3ZBW1Z0D) got offline event; moving to DISCONNECT as needed 
+[03/07/20, 14:07:34:624] info: [PERSIST] (T3ZBW1Z0D) Persisting state to storage because we just lost network connectivity 
+[03/07/20, 14:07:34:625] info: [API-Q] (T3ZBW1Z0D) noversion-1583570254.417 Flannel users/info called with reason: flannel-call:users/info 
+[03/07/20, 14:07:34:625] info: [API-Q] (T3ZBW1Z0D) noversion-1583570254.417 Flannel users/info is ENQUEUED 
+[03/07/20, 14:07:34:625] info: [API-Q] (T3ZBW1Z0D) noversion-1583570254.417 Flannel users/info is ACTIVE 
+[03/07/20, 14:07:34:626] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570254.419 team.admins.list called with reason: fetchAdminRolesRecursively 
+[03/07/20, 14:07:34:626] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570254.419 team.admins.list is ENQUEUED 
+[03/07/20, 14:07:34:626] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570254.419 team.admins.list is ACTIVE 
+[03/07/20, 14:07:34:627] info: [PERSIST] (T3ZBW1Z0D) Successfully persisted state 
+[03/07/20, 14:07:34:631] info: Store: SET_SUSPEND_STATUS true 
+[03/07/20, 14:07:34:631] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Waking 
+[03/07/20, 14:07:34:632] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from asleep to connect 
+[03/07/20, 14:07:34:632] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connect state for up to 10000 ms 
+[03/07/20, 14:07:34:633] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connect to checking_fast_reconnect 
+[03/07/20, 14:07:34:634] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in checking_fast_reconnect state for up to 60000 ms 
+[03/07/20, 14:07:34:637] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Attempting to connect to primary region 
+[03/07/20, 14:07:34:637] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from checking_fast_reconnect to prov_connect 
+[03/07/20, 14:07:34:637] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connect state for up to 10000 ms 
+[03/07/20, 14:07:34:639] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connect to prov_connecting 
+[03/07/20, 14:07:34:639] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connecting state for up to 35000 ms 
+[03/07/20, 14:07:34:643] info: Store: POWER_RESUMED  
+[03/07/20, 14:07:34:797] info: [API-Q] (T3ZBW1Z0D) noversion-1583570254.417 Flannel users/info is ERROR: request did not complete 
+[03/07/20, 14:07:34:798] info: [API-Q] (T3ZBW1Z0D) noversion-1583570254.417 Flannel users/info is retrying, attempt 2 
+[03/07/20, 14:07:34:798] info: [API-Q] (T3ZBW1Z0D) noversion-1583570254.417 Flannel users/info is ENQUEUED 
+[03/07/20, 14:07:34:820] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570254.419 team.admins.list is ERROR: request did not complete 
+[03/07/20, 14:07:34:822] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570254.419 team.admins.list is retrying, attempt 2 
+[03/07/20, 14:07:34:823] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570254.419 team.admins.list is ENQUEUED 
+[03/07/20, 14:07:34:882] error: WebSocket connection to 'wss://wss-primary.slack.com/?token=[REDACTED]&bots_as_apps=1&sync_desync=1&no_query_on_subscribe=1&start_args=%3Fagent%3Dsonic%26agent_version%3D1583470245%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26only_self_subteams%3Dtrue%26connect_only%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED 
+[03/07/20, 14:07:34:883] warn: SOCKET-MANAGER (T3ZBW1Z0D) Socket was closed because #1006: generic error 
+[03/07/20, 14:07:34:895] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connecting to error 
+[03/07/20, 14:07:34:896] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in error state for up to 10000 ms 
+[03/07/20, 14:07:34:903] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from error to wait_for_rate_limit 
+[03/07/20, 14:07:34:904] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_rate_limit state for up to 120000 ms 
+[03/07/20, 14:07:34:909] info: [SOCKET-MANAGER] (T3ZBW1Z0D) backing off: will wait for 969 ms 
+[03/07/20, 14:07:34:932] info: [NETWORK-CONNECTIVITY] Received offline event! Upserting that the client is offline. 
+[03/07/20, 14:07:35:118] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[03/07/20, 14:07:35:118] info: Network status check {
+  "elapsed_time_ms": 186,
+  "navigator_online": false,
+  "api_test": "offline"
+} 
+[03/07/20, 14:07:35:121] info: Store: SET_NETWORK_STATUS offline 
+[03/07/20, 14:07:35:824] info: [API-Q] (T3ZBW1Z0D) Pausing queue because client is offline 
+[03/07/20, 14:07:35:834] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 1 attempt(s); Retrying in 1000ms. 
+[03/07/20, 14:07:35:878] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_rate_limit to wait_for_connectivity 
+[03/07/20, 14:07:35:879] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in wait_for_connectivity state for up to 300000 ms 
+[03/07/20, 14:07:36:835] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 2 attempt(s); Retrying in 1000ms. 
+[03/07/20, 14:07:37:837] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 3 attempt(s); Retrying in 1000ms. 
+[03/07/20, 14:07:38:838] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 4 attempt(s); Retrying in 1000ms. 
+[03/07/20, 14:07:39:839] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 5 attempt(s); Retrying in 1000ms. 
+[03/07/20, 14:07:40:840] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 6 attempt(s); Retrying in 1000ms. 
+[03/07/20, 14:07:41:065] info: [NETWORK-CONNECTIVITY] Received online event! Upserting that the client is online. 
+[03/07/20, 14:07:41:574] info: NetworkStatus: Network check failed {
+  "error": "Failed to fetch"
+} 
+[03/07/20, 14:07:41:575] info: Network status check {
+  "elapsed_time_ms": 7,
+  "navigator_online": true,
+  "api_test": "offline"
+} 
+[03/07/20, 14:07:41:846] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 1000ms. 
+[03/07/20, 14:07:42:848] info: [NETWORK-CONNECTIVITY] Failed to establish a connection after 7 attempt(s); Retrying in 5993ms. 
+[03/07/20, 14:07:46:956] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[03/07/20, 14:07:49:059] info: [NETWORK-CONNECTIVITY] Successfully fetched resources from the CDN. We’re online! 
+[03/07/20, 14:07:49:059] info: [API-Q] (T3ZBW1Z0D) Unpausing queue, back online 
+[03/07/20, 14:07:49:059] info: [API-Q] (T3ZBW1Z0D) noversion-1583570254.417 Flannel users/info is ACTIVE 
+[03/07/20, 14:07:49:059] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from wait_for_connectivity to connect 
+[03/07/20, 14:07:49:060] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connect state for up to 10000 ms 
+[03/07/20, 14:07:49:061] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from connect to checking_fast_reconnect 
+[03/07/20, 14:07:49:061] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in checking_fast_reconnect state for up to 60000 ms 
+[03/07/20, 14:07:49:063] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Attempting to connect to primary region 
+[03/07/20, 14:07:49:063] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from checking_fast_reconnect to prov_connect 
+[03/07/20, 14:07:49:063] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connect state for up to 10000 ms 
+[03/07/20, 14:07:49:064] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connect to prov_connecting 
+[03/07/20, 14:07:49:064] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connecting state for up to 35000 ms 
+[03/07/20, 14:07:49:689] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connecting to prov_connected 
+[03/07/20, 14:07:49:690] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_connected state for up to 60000 ms 
+[03/07/20, 14:07:49:756] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570269.751 client.boot called with reason: provisionally-connected 
+[03/07/20, 14:07:49:757] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570269.751 client.boot is ENQUEUED 
+[03/07/20, 14:07:49:757] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570269.751 client.boot is ACTIVE 
+[03/07/20, 14:07:49:764] info: [DESKTOP-SIDE-EFFECT] (T3ZBW1Z0D) Reacting to  {"type":"[32] Set a value that represents whether we are currently in the boot phase","payload":true,"error":false} 
+[03/07/20, 14:07:50:223] info: Store: DISPLAY_REMOVED  
+[03/07/20, 14:07:50:224] info: Store: DISPLAY_ADDED  
+[03/07/20, 14:07:50:311] info: [API-Q] (T3ZBW1Z0D) noversion-1583570254.417 Flannel users/info is RESOLVED 
+[03/07/20, 14:07:50:313] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570254.419 team.admins.list is ACTIVE 
+[03/07/20, 14:07:50:736] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570269.751 client.boot is RESOLVED 
+[03/07/20, 14:07:50:742] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_connected to prov_finalize 
+[03/07/20, 14:07:50:742] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_finalize state for up to 10000 ms 
+[03/07/20, 14:07:50:745] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_finalize to prov_finalizing 
+[03/07/20, 14:07:50:745] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in prov_finalizing state for up to 10000 ms 
+[03/07/20, 14:07:50:747] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Changing from prov_finalizing to connected 
+[03/07/20, 14:07:50:747] info: [SOCKET-MANAGER] (T3ZBW1Z0D) will stay in connected state for up to Infinity ms 
+[03/07/20, 14:07:50:749] info: [SOCKET-MANAGER] (T3ZBW1Z0D) Connected to primary region 
+[03/07/20, 14:07:50:779] info: [DND] (T3ZBW1Z0D) Flushing and fetching fresh DND times for the following members after connecting to the websocket: U3Z9ACBLJ 
+[03/07/20, 14:07:50:782] info: [DND] (T3ZBW1Z0D) Preparing to fetch DND times for the following members: U3Z9ACBLJ 
+[03/07/20, 14:07:50:783] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.782 dnd.info called with reason: getDndTimesForSubscribedMembers 
+[03/07/20, 14:07:50:783] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.782 dnd.info is ENQUEUED 
+[03/07/20, 14:07:50:783] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.782 dnd.info is ACTIVE 
+[03/07/20, 14:07:50:784] info: [EVENTLOG] (T3ZBW1Z0D) fr=false, lc=false, lt=1583490514.001000 
+[03/07/20, 14:07:50:785] info: [EVENTLOG] (T3ZBW1Z0D) fetching events since 1583490514.001000 (79757 seconds ago) 
+[03/07/20, 14:07:50:786] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.784 ublockworkaround.history called with reason: fetchEventLogHistoryImmediately 
+[03/07/20, 14:07:50:786] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.784 ublockworkaround.history is ENQUEUED 
+[03/07/20, 14:07:50:786] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.784 ublockworkaround.history is ACTIVE 
+[03/07/20, 14:07:50:788] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.786 ublockworkaround.history called with reason: fetchEventLogHistoryImmediately 
+[03/07/20, 14:07:50:788] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.786 ublockworkaround.history is ENQUEUED 
+[03/07/20, 14:07:50:788] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.786 ublockworkaround.history is ACTIVE 
+[03/07/20, 14:07:50:792] info: [MESSAGE-HISTORY] (T3ZBW1Z0D) Resetting reachedEnd 
+[03/07/20, 14:07:50:794] info: [UNREAD-COUNTS] (T3ZBW1Z0D) Fetching counts 
+[03/07/20, 14:07:50:796] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.794 client.counts called with reason: client-counts-api/fetchClientCounts 
+[03/07/20, 14:07:50:797] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.794 client.counts is ENQUEUED 
+[03/07/20, 14:07:50:797] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.794 client.counts is ACTIVE 
+[03/07/20, 14:07:50:800] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.798 subteams.membership called with reason: user-group-membership-api/fetchUserGroupMembership 
+[03/07/20, 14:07:50:800] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.798 subteams.membership is ENQUEUED 
+[03/07/20, 14:07:50:801] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.798 subteams.membership is ACTIVE 
+[03/07/20, 14:07:50:801] info: [DESKTOP-SIDE-EFFECT] (T3ZBW1Z0D) Reacting to  {"type":"[32] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[03/07/20, 14:07:50:815] info: [HISTORY-FETCH] (T3ZBW1Z0D) Fetching history for message pane: C3YJR62FK oldest: 1485939024.917433 latest: null 
+[03/07/20, 14:07:50:816] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.815 conversations.history called with reason: message-pane/requestHistory 
+[03/07/20, 14:07:50:816] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.815 conversations.history is ENQUEUED 
+[03/07/20, 14:07:50:816] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.815 conversations.history is ACTIVE 
+[03/07/20, 14:07:50:821] info: [CHECK-UNREADS] (T3ZBW1Z0D) unreadLineVisible updated: true -> false 
+[03/07/20, 14:07:50:830] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570254.419 team.admins.list is RESOLVED 
+[03/07/20, 14:07:50:832] info: [API-Q] (T3ZBW1Z0D) noversion-1583570270.831 Flannel users/info called with reason: flannel-call:users/info 
+[03/07/20, 14:07:50:832] info: [API-Q] (T3ZBW1Z0D) noversion-1583570270.831 Flannel users/info is ENQUEUED 
+[03/07/20, 14:07:50:832] info: [API-Q] (T3ZBW1Z0D) noversion-1583570270.831 Flannel users/info is ACTIVE 
+[03/07/20, 14:07:50:836] info: [API-Q] (T3ZBW1Z0D) noversion-1583570270.834 Flannel users/counts called with reason: flannel-call:users/counts 
+[03/07/20, 14:07:50:836] info: [API-Q] (T3ZBW1Z0D) noversion-1583570270.834 Flannel users/counts is ENQUEUED 
+[03/07/20, 14:07:50:836] info: [API-Q] (T3ZBW1Z0D) noversion-1583570270.834 Flannel users/counts is ACTIVE 
+[03/07/20, 14:07:50:838] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.836 help.issues.list called with reason: fetchAndUpsertHelpIssues 
+[03/07/20, 14:07:50:838] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.836 help.issues.list is ENQUEUED 
+[03/07/20, 14:07:50:838] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.836 help.issues.list is ACTIVE 
+[03/07/20, 14:07:50:849] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.846 users.channelSections.list called with reason: channel_sections_list 
+[03/07/20, 14:07:50:849] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.846 users.channelSections.list is ENQUEUED 
+[03/07/20, 14:07:50:849] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.846 users.channelSections.list is ACTIVE 
+[03/07/20, 14:07:50:850] info: [HISTORY-CFM] (T3ZBW1Z0D) Re-fetching C3YJR62FK 1485939024.917433 - 1485939024.917433 
+[03/07/20, 14:07:50:851] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.850 conversations.history called with reason: channel-history-store.CFM.fetch 
+[03/07/20, 14:07:50:851] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.850 conversations.history is ENQUEUED 
+[03/07/20, 14:07:50:879] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.874 team.admins.list called with reason: fetchAdminRolesRecursively 
+[03/07/20, 14:07:50:879] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.874 team.admins.list is ENQUEUED 
+[03/07/20, 14:07:50:917] info: [API-Q] (T3ZBW1Z0D) noversion-1583570270.831 Flannel users/info is RESOLVED 
+[03/07/20, 14:07:50:917] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.850 conversations.history is ACTIVE 
+[03/07/20, 14:07:51:297] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.798 subteams.membership is RESOLVED 
+[03/07/20, 14:07:51:298] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.874 team.admins.list is ACTIVE 
+[03/07/20, 14:07:51:300] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.782 dnd.info is RESOLVED 
+[03/07/20, 14:07:51:301] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.786 ublockworkaround.history is RESOLVED 
+[03/07/20, 14:07:51:303] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.836 help.issues.list is RESOLVED 
+[03/07/20, 14:07:51:311] info: [USER_GROUP_MEMBERSHIP] (T3ZBW1Z0D) Completed subteams.membership processing 
+[03/07/20, 14:07:51:315] info: [DND] (T3ZBW1Z0D) Fetched DND info for the following member: U3Z9ACBLJ 
+[03/07/20, 14:07:51:318] info: [DND] (T3ZBW1Z0D) Checking for changes in DND status for the following members: U3Z9ACBLJ 
+[03/07/20, 14:07:51:322] info: [DND] (T3ZBW1Z0D) Will check for changes in DND status again in 5 minutes 
+[03/07/20, 14:07:51:340] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.794 client.counts is RESOLVED 
+[03/07/20, 14:07:51:340] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.784 ublockworkaround.history is RESOLVED 
+[03/07/20, 14:07:51:341] info: [API-Q] (T3ZBW1Z0D) noversion-1583570270.834 Flannel users/counts is RESOLVED 
+[03/07/20, 14:07:51:341] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.846 users.channelSections.list is RESOLVED 
+[03/07/20, 14:07:51:350] info: [COUNTS] (T3ZBW1Z0D) Applying counts to channels 
+[03/07/20, 14:07:51:355] info: [COUNTS] (T3ZBW1Z0D) Threads has_unreads:false mention_count:0 
+[03/07/20, 14:07:51:357] info: [COUNTS] (T3ZBW1Z0D) Completed counts processing 
+[03/07/20, 14:07:51:357] info: [EVENTLOG] (T3ZBW1Z0D) nothing to process 
+[03/07/20, 14:07:51:357] info: [EVENTLOG] (T3ZBW1Z0D) nothing to process 
+[03/07/20, 14:07:51:358] info: [EVENTLOG] (T3ZBW1Z0D) fetched finish (cancelled? false) 
+[03/07/20, 14:07:51:358] info: [EVENTLOG] (T3ZBW1Z0D) dispatching signal and clearing timestamp 
+[03/07/20, 14:07:51:359] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.850 conversations.history is RESOLVED 
+[03/07/20, 14:07:51:840] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.815 conversations.history is RESOLVED 
+[03/07/20, 14:07:51:841] info: [API-Q] (T3ZBW1Z0D) ee0f7d53-1583570270.874 team.admins.list is RESOLVED 
+[03/07/20, 14:07:51:875] info: [MESSAGE-LIST] (T3ZBW1Z0D) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 1 
+[03/07/20, 14:07:51:878] info: [CHECK-UNREADS] (T3ZBW1Z0D) unreadLineVisible updated: false -> true 
+[03/07/20, 14:07:52:234] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after unread line became visible 
+[03/07/20, 14:07:52:235] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because attention not on chat (window_not_focused) 
+[03/07/20, 14:07:53:892] info: [FOCUS-EVENT] Client window focused 
+[03/07/20, 14:07:53:902] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/07/20, 14:07:53:906] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/07/20, 14:07:53:932] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/07/20, 14:07:53:934] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/07/20, 14:07:53:934] info: [CHECK-UNREADS] (T3ZBW1Z0D) Checking unreads after window became focused 
+[03/07/20, 14:07:53:934] info: [CHECK-UNREADS] (T3ZBW1Z0D) Not marking C3YJR62FK because last_read >= latest && channel is read 
+[03/07/20, 14:07:55:097] info: [FOCUS-EVENT] Client window blurred 
+[03/07/20, 14:07:55:118] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/07/20, 14:07:55:120] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[03/07/20, 14:07:56:961] info: Store: SET_SYSTEM_IDLE active 

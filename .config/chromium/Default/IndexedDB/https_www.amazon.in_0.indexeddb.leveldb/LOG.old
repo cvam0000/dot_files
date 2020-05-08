@@ -1,0 +1,7 @@
+2020/05/07-15:07:35.940 2532 Reusing MANIFEST /home/cvam/.config/chromium/Default/IndexedDB/https_www.amazon.in_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/07-15:07:35.940 2532 Recovering log #3
+2020/05/07-15:07:35.944 2532 Reusing old log /home/cvam/.config/chromium/Default/IndexedDB/https_www.amazon.in_0.indexeddb.leveldb/000003.log 
+2020/05/07-15:07:55.490 1b43 Level-0 table #5: started
+2020/05/07-15:07:55.496 1b43 Level-0 table #5: 54786 bytes OK
+2020/05/07-15:07:55.498 1b43 Delete type=0 #3
+2020/05/07-15:07:55.500 1b43 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

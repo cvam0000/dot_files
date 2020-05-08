@@ -1,0 +1,10 @@
+{
+    "domains": [
+        {
+            "icon": "/home/cvam/.config/Zulip/server-icons/592506634.png",
+            "url": "https://chat.softwarefreedom.in",
+            "alias": "SFLC.IN",
+            "ignoreCerts": false
+        }
+    ]
+}

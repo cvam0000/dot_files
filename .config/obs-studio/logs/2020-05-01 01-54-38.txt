@@ -1,0 +1,112 @@
+01:54:38.286: CPU Name: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+01:54:38.286: CPU Speed: 881.256MHz
+01:54:38.287: Physical Cores: 4, Logical Cores: 8
+01:54:38.287: Physical Memory: 15756MB Total, 10912MB Free
+01:54:38.287: Kernel Version: Linux 5.6.4-arch1-1
+01:54:38.287: Distribution: "Arch Linux" Unknown
+01:54:38.289: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.7
+01:54:38.293: Portable mode: false
+01:54:38.360: OBS 25.0.3-1 (linux)
+01:54:38.360: ---------------------------------
+01:54:38.379: ---------------------------------
+01:54:38.379: audio settings reset:
+01:54:38.379: 	samples per sec: 44100
+01:54:38.379: 	speakers:        2
+01:54:38.385: ---------------------------------
+01:54:38.385: Initializing OpenGL...
+01:54:38.409: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) 
+01:54:38.409: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 19.3.4, shading language 4.60
+01:54:38.426: ---------------------------------
+01:54:38.426: video settings reset:
+01:54:38.426: 	base resolution:   1920x1080
+01:54:38.426: 	output resolution: 1280x720
+01:54:38.426: 	downscale filter:  Bicubic
+01:54:38.426: 	fps:               30/1
+01:54:38.426: 	format:            NV12
+01:54:38.426: 	YUV mode:          601/Partial
+01:54:38.426: NV12 texture support not available
+01:54:38.427: Audio monitoring device:
+01:54:38.427: 	name: Default
+01:54:38.427: 	id: default
+01:54:38.427: ---------------------------------
+01:54:38.429: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+01:54:38.431: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+01:54:38.431: 
+01:54:38.431: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+01:54:38.437: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:54:38.437: No blackmagic support
+01:54:38.479: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+01:54:38.479: 
+01:54:38.479: FFMPEG VAAPI supported
+01:54:38.482: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+01:54:38.482: 
+01:54:38.483: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+01:54:38.514: VLC found, VLC video source enabled
+01:54:38.515: ---------------------------------
+01:54:38.515:   Loaded Modules:
+01:54:38.515:     vlc-video.so
+01:54:38.515:     text-freetype2.so
+01:54:38.515:     rtmp-services.so
+01:54:38.515:     obs-x264.so
+01:54:38.515:     obs-transitions.so
+01:54:38.515:     obs-outputs.so
+01:54:38.515:     obs-filters.so
+01:54:38.515:     obs-ffmpeg.so
+01:54:38.515:     linux-v4l2.so
+01:54:38.515:     linux-pulseaudio.so
+01:54:38.515:     linux-jack.so
+01:54:38.515:     linux-decklink.so
+01:54:38.515:     linux-capture.so
+01:54:38.515:     linux-alsa.so
+01:54:38.515:     image-source.so
+01:54:38.515:     decklink-ouput-ui.so
+01:54:38.515: ---------------------------------
+01:54:38.515: ==== Startup complete ===============================================
+01:54:38.516: Service '' not found
+01:54:38.523: All scene data cleared
+01:54:38.523: ------------------------------------------------
+01:54:38.536: pulse-input: Server name: 'pulseaudio 13.0'
+01:54:38.537: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+01:54:38.537: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+01:54:38.544: pulse-input: Server name: 'pulseaudio 13.0'
+01:54:38.546: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+01:54:38.546: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+01:54:38.547: v4l2-input: Start capture from /dev/video2
+01:54:38.663: v4l2-input: Input: 0
+01:54:38.690: v4l2-input: Resolution: 1280x720
+01:54:38.690: v4l2-input: Pixelformat: VYUY
+01:54:38.690: v4l2-input: Linesize: 2560 Bytes
+01:54:38.690: v4l2-input: Framerate: 10.00 fps
+01:54:38.696: xshm-input: Geometry 1920x1080 @ 0,0
+01:54:38.698: Switched to scene 'Scene'
+01:54:38.698: ------------------------------------------------
+01:54:38.698: Loaded scenes:
+01:54:38.698: - scene 'Scene':
+01:54:38.699:     - source: 'YT-VIDEO TEST' (v4l2_input)
+01:54:38.699:     - source: 'heroverscreenAuroville' (xshm_input)
+01:54:38.699: ------------------------------------------------
+01:54:38.772: Switched to Preview/Program mode
+01:54:38.772: ------------------------------------------------
+01:55:31.926: ---------------------------------
+01:55:31.926: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+01:55:31.942: [x264 encoder: 'simple_h264_stream'] settings:
+01:55:31.942: 	rate_control: CBR
+01:55:31.942: 	bitrate:      2500
+01:55:31.942: 	buffer size:  2500
+01:55:31.942: 	crf:          0
+01:55:31.942: 	fps_num:      30
+01:55:31.942: 	fps_den:      1
+01:55:31.942: 	width:        1280
+01:55:31.942: 	height:       720
+01:55:31.942: 	keyint:       250
+01:55:31.942: 
+01:55:31.963: ---------------------------------
+01:55:31.964: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+01:55:31.964: 
+01:55:31.969: ==== Recording Start ===============================================
+01:55:31.969: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/cvam/2020-05-01 01-55-31.mkv'...
+01:57:23.338: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/cvam/2020-05-01 01-55-31.mkv' stopped
+01:57:23.338: Output 'simple_file_output': stopping
+01:57:23.338: Output 'simple_file_output': Total frames output: 3314
+01:57:23.338: Output 'simple_file_output': Total drawn frames: 3341
+01:57:23.338: ==== Recording Stop ================================================

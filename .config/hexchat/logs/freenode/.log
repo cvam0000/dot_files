@@ -1,0 +1,39 @@
+**** BEGIN LOGGING AT Sat Feb 29 02:40:02 2020
+
+Feb 29 02:40:02 *	Connecting to chat.freenode.net (149.56.134.238:6697)
+Feb 29 02:40:03 *	* Subject: /O=Digital Signature Trust Co./CN=DST Root CA X3
+Feb 29 02:40:03 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+Feb 29 02:40:03 *	* Subject: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+Feb 29 02:40:03 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+Feb 29 02:40:03 *	* Subject: /CN=cherryh.freenode.net
+Feb 29 02:40:03 *	* Issuer: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+Feb 29 02:40:03 *	* Certification info:
+Feb 29 02:40:03 *	  Subject:
+Feb 29 02:40:03 *	    CN=cherryh.freenode.net
+Feb 29 02:40:03 *	  Issuer:
+Feb 29 02:40:03 *	    C=US
+Feb 29 02:40:03 *	    O=Let's Encrypt
+Feb 29 02:40:03 *	    CN=Let's Encrypt Authority X3
+Feb 29 02:40:03 *	  Public key algorithm: rsaEncryption (4096 bits)
+Feb 29 02:40:03 *	  Sign algorithm sha256WithRSAEncryption
+Feb 29 02:40:03 *	  Valid since Feb 10 05:03:00 2020 GM to May 10 05:03:00 2020 GM
+Feb 29 02:40:03 *	* Cipher info:
+Feb 29 02:40:03 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Feb 29 02:40:03 *	Connected. Now logging in.
+**** BEGIN LOGGING AT Sat Feb 29 04:39:51 2020
+
+Feb 29 04:39:51 *	cvam sets mode +Z on cvam
+Feb 29 04:39:51 *	cvam sets mode +i on cvam
+Feb 29 04:39:51 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+**** ENDING LOGGING AT Sat Feb 29 04:39:59 2020
+
+**** BEGIN LOGGING AT Sat Feb 29 07:47:01 2020
+
+Feb 29 07:47:01 *	Disconnected (Connection reset by peer)
+**** ENDING LOGGING AT Sat Feb 29 07:47:01 2020
+
+**** BEGIN LOGGING AT Sat Feb 29 07:47:01 2020
+
+Feb 29 07:47:01 *	Disconnected (Connection reset by peer)
+**** ENDING LOGGING AT Sat Feb 29 07:47:01 2020
+

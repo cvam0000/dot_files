@@ -1,0 +1,87 @@
+[KFileDialog Settings]
+Recent Files[$e]=auroville.mkv,file:$HOME/Naman/VID_20200420_055009.mp4,file:$HOME/Naman/VID_20200420_054929.mp4,file:$HOME/Naman/VID_20200420_054809.mp4,file:$HOME/Naman/VID_20200420_054727.mp4,file:$HOME/Naman/VID_20200420_054156.mp4,file:$HOME/Naman/VID_20200420_054049.mp4,file:$HOME/Naman/VID_20200420_054042.mp4,file:$HOME/Naman/VID_20200420_054002.mp4,file:$HOME/Naman/VID_20200420_053812.mp4,file:$HOME/Naman/VID_20200418_185122.mp4,file:$HOME/Naman/VID_20200418_185028.mp4,file:$HOME/Naman/VID_20200417_062638.mp4,file:$HOME/Naman/VID_20200417_062626.mp4,file:$HOME/Naman/VID_20200417_062122.mp4,file:$HOME/Naman/intro.mp4,file:$HOME/Naman/VID_20200420_055227.mp4,file:$HOME/Naman/VID_20200420_055218.mp4,file:$HOME/Naman/VID_20200420_055109.mp4,file:$HOME/Naman/VID_20200420_055041.mp4
+Recent URLs[$e]=file:$HOME/Naman/
+detailViewIconSize=0
+iconViewIconSize=3
+listViewIconSize=15
+
+[MainWindow]
+Height 1080=1016
+State=AAAA/wAAAAD9AAAAAQAAAAIAAAPAAAABcvwBAAAADvsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AAAAAAD/////AAAAYAEAAAP7AAAADgBsAGkAYgByAGEAcgB5AAAAAAD/////AAAAZAEAAAP7AAAAFABzAGMAcgBlAGUAbgBnAHIAYQBiAAAAAAD/////AAAAYAEAAAP7AAAAGgBhAHUAZABpAG8AcwBwAGUAYwB0AHIAdQBtAAAAAAD/////AAAAZwEAAAP7AAAAFgBwAHIAbwBqAGUAYwB0AF8AYgBpAG4BAAAAAAAAAKsAAABgAQAAA/wAAACsAAAAaAAAAGAA////+gAAAAABAAAAAvsAAAAYAGUAZgBmAGUAYwB0AF8AcwB0AGEAYwBrAQAAAAD/////AAAAYAEAAAP7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAAGABAAAD/AAAARUAAAC+AAAAiwD////6AAAAAQEAAAAC+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQBAAAAAP////8AAAAEAQAAA/sAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAAQBAAAD/AAAAdQAAAHsAAABRAD////6AAAAAQEAAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAAFEAQAAA/sAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAAD/////AAABRAEAAAP7AAAAGAB1AG4AZABvAF8AaABpAHMAdABvAHIAeQAAAAAA/////wAAAGABAAAD+wAAAAoAbQBpAHgAZQByAAAAAAD/////AAAAYwEAAAP7AAAAFgB2AGUAYwB0AG8AcgBzAGMAbwBwAGUAAAAAAP////8AAAEqAQAAA/sAAAAQAHcAYQB2AGUAZgBvAHIAbQAAAAAA/////wAAAKIBAAAD+wAAABQAcgBnAGIAXwBwAGEAcgBhAGQAZQAAAAAA/////wAAAJ8BAAAD+wAAABIAaABpAHMAdABvAGcAcgBhAG0AAAAAAP////8AAAFGAQAAAwAAA8AAAAIkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgEAAAIy/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=960
+
+[Recent Dirs]
+KdenliveClipFolder[$e]=$HOME/Naman/,$HOME/Videos/Aroville /,$HOME/Videos
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[UiSettings]
+ColorScheme=Breeze Dark
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAADBgAAAAIAAAACAAAAZAAAAAEAAAA5AAAAYgAAAAMBAQABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAABiAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAAAAAEA=
+
+[capture]
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultaudioapp=/usr/bin/audacity
+defaultimageapp=/usr/bin/krita
+defaultprojectfolder[$e]=$HOME/Videos
+ffmpegpath[$e]=/tmp/.mount_kdenliV5Hjz9/usr/bin/ffmpeg
+ffplaypath[$e]=/tmp/.mount_kdenliV5Hjz9/usr/bin/ffplay
+ffprobepath[$e]=/tmp/.mount_kdenliV5Hjz9/usr/bin/ffprobe
+mltpath[$e]=/tmp/.mount_kdenliV5Hjz9/usr/share/mlt/profiles
+rendererpath[$e]=/tmp/.mount_kdenliV5Hjz9/usr/bin/melt
+
+[timeline]
+trackheight=61
+
+[unmanaged]
+default_profile=atsc_1080p_25
+force_breeze=true
+monitor_audio=false
+producerslist=avformat,avformat-novalidate,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,decklink,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,pango,pixbuf,framebuffer,slowmotion,blipflash,count,qimage,qtext,kdenlivetitle,pgm,vorbis,xml,xml-string,xml-nogl
+use_dark_breeze=true
+widgetstyle=Default
+
+[version]
+version=19.12.3

@@ -1,0 +1,15 @@
+2020/05/07-17:05:45.602 a2b Reusing MANIFEST /home/cvam/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/07-17:05:45.602 a2b Recovering log #4
+2020/05/07-17:05:45.627 a2b Reusing old log /home/cvam/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000004.log 
+2020/05/07-17:06:25.908 b9b Level-0 table #8: started
+2020/05/07-17:06:25.970 b9b Level-0 table #8: 1124666 bytes OK
+2020/05/07-17:06:25.974 b9b Delete type=0 #4
+2020/05/07-17:06:25.976 b9b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/07-17:06:25.976 b9b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x03\x01\x0d\x001\x005\x008\x008\x007\x009\x002\x006\x007\x008\x009\x006\x004' @ 5619 : 1
+2020/05/07-17:06:25.976 b9b Compacting 1@1 + 1@2 files
+2020/05/07-17:06:26.044 b9b Generated table #9@1: 55 keys, 250146 bytes
+2020/05/07-17:06:26.044 b9b Compacted 1@1 + 1@2 files => 250146 bytes
+2020/05/07-17:06:26.046 b9b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/07-17:06:26.047 b9b Delete type=2 #8
+2020/05/07-17:06:26.047 b9b Delete type=2 #5
+2020/05/07-17:06:26.048 b9b Manual compaction at level-1 from '\x00\x02\x01\x03\x01\x0d\x001\x005\x008\x008\x007\x009\x002\x006\x007\x008\x009\x006\x004' @ 5619 : 1 .. (end); will stop at (end)

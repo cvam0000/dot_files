@@ -1,0 +1,21 @@
+2020/05/07-16:58:07.586 487 Reusing MANIFEST /home/cvam/.config/chromium/Default/Session Storage/MANIFEST-000001
+2020/05/07-16:58:07.587 487 Recovering log #452
+2020/05/07-16:58:07.587 487 Reusing old log /home/cvam/.config/chromium/Default/Session Storage/000452.log 
+2020/05/07-16:58:29.941 6ff Level-0 table #456: started
+2020/05/07-16:58:29.943 6ff Level-0 table #456: 15052 bytes OK
+2020/05/07-16:58:29.945 6ff Delete type=0 #452
+2020/05/07-17:22:56.975 6ff Level-0 table #458: started
+2020/05/07-17:22:56.978 6ff Level-0 table #458: 17179 bytes OK
+2020/05/07-17:22:56.979 6ff Delete type=0 #455
+2020/05/07-18:11:28.917 6ff Level-0 table #460: started
+2020/05/07-18:11:28.920 6ff Level-0 table #460: 21765 bytes OK
+2020/05/07-18:11:28.921 6ff Delete type=0 #457
+2020/05/07-18:11:28.922 6ff Compacting 4@0 + 1@1 files
+2020/05/07-18:11:28.934 6ff Generated table #461@0: 6211 keys, 160491 bytes
+2020/05/07-18:11:28.934 6ff Compacted 4@0 + 1@1 files => 160491 bytes
+2020/05/07-18:11:28.935 6ff compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/05/07-18:11:28.935 6ff Delete type=2 #456
+2020/05/07-18:11:28.935 6ff Delete type=2 #450
+2020/05/07-18:11:28.935 6ff Delete type=2 #460
+2020/05/07-18:11:28.935 6ff Delete type=2 #458
+2020/05/07-18:11:28.935 6ff Delete type=2 #453

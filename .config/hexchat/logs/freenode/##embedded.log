@@ -1,0 +1,30 @@
+**** BEGIN LOGGING AT Sat Feb 29 02:42:45 2020
+
+Feb 29 02:42:45 *	Now talking on ##embedded
+Feb 29 02:42:45 *	Topic for ##embedded is: Discussion regarding embedded electronics. For other electronics chat, go to ##electronics || Books: http://is.gd/L6Pz6Z || http://www.alldatasheet.com/ || If you can't talk, you need to be identified/logged in with freenode
+Feb 29 02:42:45 *	Topic for ##embedded set by obnauticus!~obnauticu@unaffiliated/obnauticus (Fri Nov  7 00:49:13 2014)
+Feb 29 03:18:32 <angelo__>	maunix, thanks, seems he was able to understand the source of the issue
+Feb 29 03:18:57 <angelo__>	looks like shielding the mcu is not a solution, since noise comes in also from ground that can't be shielded
+Feb 29 03:21:00 <angelo__>	so he will have to get a better metalization of the flash parable, and connect it to ground
+Feb 29 03:22:25 <angelo__>	and maybe something else. Well, yes, he has good knowledge of such issues seems. Let's see. Can post back here the solution then
+Feb 29 03:23:24 *	tafa (~ta20@109.125.132.93) has joined
+Feb 29 03:33:19 *	Jantz (~IceChat9@118-93-142-216.dsl.dyn.ihug.co.nz) has joined
+Feb 29 03:47:30 *	Jantz has quit (Ping timeout: 240 seconds)
+Feb 29 04:12:30 *	Wulf has quit (Ping timeout: 255 seconds)
+Feb 29 04:36:51 *	braxtron has quit (Quit: fucking off now)
+Feb 29 04:39:32 *	Disconnected ()
+**** ENDING LOGGING AT Sat Feb 29 04:39:32 2020
+
+**** BEGIN LOGGING AT Sat Feb 29 04:39:59 2020
+
+Feb 29 04:39:59 *	Now talking on ##embedded
+Feb 29 04:39:59 *	Topic for ##embedded is: Discussion regarding embedded electronics. For other electronics chat, go to ##electronics || Books: http://is.gd/L6Pz6Z || http://www.alldatasheet.com/ || If you can't talk, you need to be identified/logged in with freenode
+Feb 29 04:39:59 *	Topic for ##embedded set by obnauticus!~obnauticu@unaffiliated/obnauticus (Fri Nov  7 00:49:13 2014)
+Feb 29 04:52:48 *	amp__ has quit (Remote host closed the connection)
+Feb 29 05:07:57 *	deepio (~kvirc@dyndsl-031-150-001-207.ewe-ip-backbone.de) has joined
+Feb 29 05:12:32 *	deepio has quit (Quit: KVIrc 5.0.1 Aria http://www.kvirc.net/)
+Feb 29 05:23:19 *	mauz555 (~mauz555@2a01:e0a:56d:9090:185e:d626:ae85:68f0) has joined
+Feb 29 05:38:00 *	enriooooooo (~nanoz@unaffiliated/nanoz) has joined
+Feb 29 05:41:32 *	Disconnected ()
+**** ENDING LOGGING AT Sat Feb 29 05:41:32 2020
+

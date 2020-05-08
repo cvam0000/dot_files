@@ -1,0 +1,15 @@
+2020/05/07-15:08:01.409 2532 Reusing MANIFEST /home/cvam/.config/chromium/Default/IndexedDB/https_www.amazon.in_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/07-15:08:01.409 2532 Recovering log #4
+2020/05/07-15:08:01.409 2532 Reusing old log /home/cvam/.config/chromium/Default/IndexedDB/https_www.amazon.in_0.indexeddb.leveldb/000004.log 
+2020/05/07-15:08:06.701 1b43 Level-0 table #8: started
+2020/05/07-15:08:06.703 1b43 Level-0 table #8: 780 bytes OK
+2020/05/07-15:08:06.705 1b43 Delete type=0 #4
+2020/05/07-15:08:06.705 1b43 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/07-15:08:06.705 1b43 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x03\x000\x8bk\xeb\x1ewB\x00\x01\x14\x00T\x002\x008\x00Q\x00K\x00M\x00M\x003\x00R\x00V\x00D\x00A\x00V\x00X\x005\x003\x00V\x00S\x00P\x00Z' @ 2480 : 1
+2020/05/07-15:08:06.705 1b43 Compacting 1@1 + 1@2 files
+2020/05/07-15:08:06.708 1b43 Generated table #9@1: 37 keys, 1067 bytes
+2020/05/07-15:08:06.708 1b43 Compacted 1@1 + 1@2 files => 1067 bytes
+2020/05/07-15:08:06.710 1b43 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/07-15:08:06.710 1b43 Delete type=2 #8
+2020/05/07-15:08:06.710 1b43 Delete type=2 #5
+2020/05/07-15:08:06.711 1b43 Manual compaction at level-1 from '\x00\x01\x01\x1f\x03\x000\x8bk\xeb\x1ewB\x00\x01\x14\x00T\x002\x008\x00Q\x00K\x00M\x00M\x003\x00R\x00V\x00D\x00A\x00V\x00X\x005\x003\x00V\x00S\x00P\x00Z' @ 2480 : 1 .. (end); will stop at (end)

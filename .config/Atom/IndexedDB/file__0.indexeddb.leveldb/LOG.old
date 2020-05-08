@@ -1,0 +1,12 @@
+2020/04/14-02:19:28.893 7689 Reusing MANIFEST /home/cvam/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2020/04/14-02:19:28.894 7689 Recovering log #11
+2020/04/14-02:19:28.897 7689 Reusing old log /home/cvam/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000011.log 
+2020/04/14-04:33:23.875 11871 Level-0 table #16: started
+2020/04/14-04:33:23.896 11871 Level-0 table #16: 1746153 bytes OK
+2020/04/14-04:33:23.897 11871 Delete type=0 #11
+2020/04/14-04:43:57.649 11871 Compacting 1@1 + 1@2 files
+2020/04/14-04:43:57.661 11871 Generated table #17@1: 302 keys, 52032 bytes
+2020/04/14-04:43:57.661 11871 Compacted 1@1 + 1@2 files => 52032 bytes
+2020/04/14-04:43:57.662 11871 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/04/14-04:43:57.662 11871 Delete type=2 #13
+2020/04/14-04:43:57.662 11871 Delete type=2 #16

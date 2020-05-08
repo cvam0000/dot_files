@@ -1,0 +1,139 @@
+17:28:22.950: CPU Name: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+17:28:22.950: CPU Speed: 2442.373MHz
+17:28:22.950: Physical Cores: 4, Logical Cores: 8
+17:28:22.950: Physical Memory: 15756MB Total, 425MB Free
+17:28:22.950: Kernel Version: Linux 5.6.4-arch1-1
+17:28:22.951: Distribution: "Arch Linux" Unknown
+17:28:22.951: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.7
+17:28:22.953: Portable mode: false
+17:28:23.030: OBS 25.0.3-1 (linux)
+17:28:23.030: ---------------------------------
+17:28:23.125: ---------------------------------
+17:28:23.125: audio settings reset:
+17:28:23.125: 	samples per sec: 44100
+17:28:23.125: 	speakers:        2
+17:28:23.163: ---------------------------------
+17:28:23.163: Initializing OpenGL...
+17:28:23.245: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) 
+17:28:23.246: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 19.3.4, shading language 4.60
+17:28:23.274: ---------------------------------
+17:28:23.274: video settings reset:
+17:28:23.274: 	base resolution:   1920x1080
+17:28:23.274: 	output resolution: 1280x720
+17:28:23.274: 	downscale filter:  Bicubic
+17:28:23.274: 	fps:               30/1
+17:28:23.274: 	format:            NV12
+17:28:23.274: 	YUV mode:          601/Partial
+17:28:23.274: NV12 texture support not available
+17:28:23.277: Audio monitoring device:
+17:28:23.277: 	name: Default
+17:28:23.277: 	id: default
+17:28:23.278: ---------------------------------
+17:28:23.281: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+17:28:23.283: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+17:28:23.283: 
+17:28:23.283: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+17:28:23.291: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:28:23.291: No blackmagic support
+17:28:23.349: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+17:28:23.349: 
+17:28:23.349: FFMPEG VAAPI supported
+17:28:23.356: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+17:28:23.356: 
+17:28:23.356: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+17:28:23.412: VLC found, VLC video source enabled
+17:28:23.412: ---------------------------------
+17:28:23.412:   Loaded Modules:
+17:28:23.413:     vlc-video.so
+17:28:23.413:     text-freetype2.so
+17:28:23.413:     rtmp-services.so
+17:28:23.413:     obs-x264.so
+17:28:23.413:     obs-transitions.so
+17:28:23.413:     obs-outputs.so
+17:28:23.413:     obs-filters.so
+17:28:23.413:     obs-ffmpeg.so
+17:28:23.413:     linux-v4l2.so
+17:28:23.413:     linux-pulseaudio.so
+17:28:23.413:     linux-jack.so
+17:28:23.413:     linux-decklink.so
+17:28:23.413:     linux-capture.so
+17:28:23.413:     linux-alsa.so
+17:28:23.413:     image-source.so
+17:28:23.413:     decklink-ouput-ui.so
+17:28:23.413: ---------------------------------
+17:28:23.413: ==== Startup complete ===============================================
+17:28:23.414: Service '' not found
+17:28:23.421: All scene data cleared
+17:28:23.421: ------------------------------------------------
+17:28:23.430: pulse-input: Server name: 'pulseaudio 13.0'
+17:28:23.431: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+17:28:23.431: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+17:28:23.432: pulse-input: Server name: 'pulseaudio 13.0'
+17:28:23.432: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+17:28:23.432: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+17:28:23.433: xshm-input: Geometry 1920x1080 @ 0,0
+17:28:23.434: v4l2-input: Start capture from /dev/video2
+17:28:23.555: v4l2-input: Input: 0
+17:28:23.580: v4l2-input: Resolution: 1280x720
+17:28:23.581: v4l2-input: Pixelformat: VYUY
+17:28:23.581: v4l2-input: Linesize: 2560 Bytes
+17:28:23.581: v4l2-input: Framerate: 10.00 fps
+17:28:23.583: Switched to scene 'Scene'
+17:28:23.583: ------------------------------------------------
+17:28:23.583: Loaded scenes:
+17:28:23.583: - scene 'Scene':
+17:28:23.583:     - source: 'YT-VIDEO TEST' (v4l2_input)
+17:28:23.583:     - source: 'heroverscreenAuroville' (xshm_input)
+17:28:23.583: ------------------------------------------------
+17:28:23.671: Switched to Preview/Program mode
+17:28:23.671: ------------------------------------------------
+17:28:23.981: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+17:28:23.981: 
+17:31:34.481: ---------------------------------
+17:31:34.481: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+17:31:34.500: [x264 encoder: 'simple_h264_stream'] settings:
+17:31:34.500: 	rate_control: CBR
+17:31:34.500: 	bitrate:      2500
+17:31:34.500: 	buffer size:  2500
+17:31:34.500: 	crf:          0
+17:31:34.500: 	fps_num:      30
+17:31:34.500: 	fps_den:      1
+17:31:34.500: 	width:        1280
+17:31:34.500: 	height:       720
+17:31:34.500: 	keyint:       250
+17:31:34.500: 
+17:31:34.533: ---------------------------------
+17:31:34.533: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+17:31:34.533: 
+17:31:34.548: ==== Recording Start ===============================================
+17:31:34.549: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/cvam/2020-04-29 17-31-34.mkv'...
+17:31:37.817: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/cvam/2020-04-29 17-31-34.mkv' stopped
+17:31:37.817: Output 'simple_file_output': stopping
+17:31:37.817: Output 'simple_file_output': Total frames output: 71
+17:31:37.817: Output 'simple_file_output': Total drawn frames: 98
+17:31:37.817: ==== Recording Stop ================================================
+17:31:39.074: ---------------------------------
+17:31:39.074: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+17:31:39.074: [x264 encoder: 'simple_h264_stream'] settings:
+17:31:39.074: 	rate_control: CBR
+17:31:39.074: 	bitrate:      2500
+17:31:39.074: 	buffer size:  2500
+17:31:39.074: 	crf:          0
+17:31:39.074: 	fps_num:      30
+17:31:39.074: 	fps_den:      1
+17:31:39.074: 	width:        1280
+17:31:39.074: 	height:       720
+17:31:39.074: 	keyint:       250
+17:31:39.074: 
+17:31:39.079: ---------------------------------
+17:31:39.080: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: 3
+17:31:39.080: 
+17:31:39.082: ==== Recording Start ===============================================
+17:31:39.082: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/cvam/2020-04-29 17-31-39.mkv'...
+17:32:12.566: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/cvam/2020-04-29 17-31-39.mkv' stopped
+17:32:12.567: Output 'simple_file_output': stopping
+17:32:12.567: Output 'simple_file_output': Total frames output: 976
+17:32:12.567: Output 'simple_file_output': Total drawn frames: 1004
+17:32:12.567: ==== Recording Stop ================================================
+18:32:55.241: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Mic/Aux)
+18:32:55.241: 

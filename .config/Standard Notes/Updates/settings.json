@@ -1,0 +1,17 @@
+{
+  "endpoint": "https://standardnotes.org/desktop/latest.json",
+  "autoupdateEnabled": true,
+  "checkingForUpdate": false,
+  "latest": {
+    "version": "3.3.5",
+    "changelog": "https://github.com/standardnotes/desktop/releases/v3.3.5",
+    "downloads": {
+      "mac": "https://github.com/standardnotes/desktop/releases/download/v3.3.5/Standard-Notes-3.3.5.dmg",
+      "windows": "https://github.com/standardnotes/desktop/releases/download/v3.3.5/Standard-Notes-Setup-3.3.5.exe",
+      "appimage_32": "https://github.com/standardnotes/desktop/releases/download/v3.3.5/Standard-Notes-3.3.5-i386.AppImage",
+      "appimage_64": "https://github.com/standardnotes/desktop/releases/download/v3.3.5/Standard-Notes-3.3.5.AppImage"
+    }
+  },
+  "currentVersion": "3.3.5",
+  "lastCheck": "2020-04-20T00:01:36.721Z"
+}

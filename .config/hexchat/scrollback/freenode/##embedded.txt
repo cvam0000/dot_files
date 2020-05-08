@@ -1,0 +1,26 @@
+T 1582924365 19*	Now talking on 22##embedded
+T 1582924365 22*	Topic for 22##embedded is: Discussion regarding embedded electronics. For other electronics chat, go to ##electronics || Books: http://is.gd/L6Pz6Z || http://www.alldatasheet.com/ || If you can't talk, you need to be identified/logged in with freenode
+T 1582924365 22*	Topic for 22##embedded set by 26obnauticus!~obnauticu@unaffiliated/obnauticus (24Fri Nov  7 00:49:13 2014)
+T 1582926512 18<angelo__18>	maunix, thanks, seems he was able to understand the source of the issue
+T 1582926537 18<angelo__18>	looks like shielding the mcu is not a solution, since noise comes in also from ground that can't be shielded
+T 1582926660 18<angelo__18>	so he will have to get a better metalization of the flash parable, and connect it to ground
+T 1582926745 18<angelo__18>	and maybe something else. Well, yes, he has good knowledge of such issues seems. Let's see. Can post back here the solution then
+T 1582926804 23*	tafa (~ta20@109.125.132.9323) has joined
+T 1582927399 23*	Jantz (~IceChat9@118-93-142-216.dsl.dyn.ihug.co.nz23) has joined
+T 1582928250 24*	Jantz has quit (Ping timeout: 240 seconds)
+T 1582929750 24*	Wulf has quit (Ping timeout: 255 seconds)
+T 1582931211 24*	braxtron has quit (Quit: fucking off now)
+T 1582931372 20*	Disconnected (20)
+T 1582931391 22*	26cvam sets mode 24+Z on 22cvam
+T 1582931391 22*	26cvam sets mode 24+i on 22cvam
+T 1582931391 -18NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+T 1582931399 19*	Now talking on 22##embedded
+T 1582931399 22*	Topic for 22##embedded is: Discussion regarding embedded electronics. For other electronics chat, go to ##electronics || Books: http://is.gd/L6Pz6Z || http://www.alldatasheet.com/ || If you can't talk, you need to be identified/logged in with freenode
+T 1582931399 22*	Topic for 22##embedded set by 26obnauticus!~obnauticu@unaffiliated/obnauticus (24Fri Nov  7 00:49:13 2014)
+T 1582932168 24*	amp__ has quit (Remote host closed the connection)
+T 1582933077 23*	deepio (~kvirc@dyndsl-031-150-001-207.ewe-ip-backbone.de23) has joined
+T 1582933352 24*	deepio has quit (Quit: KVIrc 5.0.1 Aria http://www.kvirc.net/)
+T 1582933999 23*	mauz555 (~mauz555@2a01:e0a:56d:9090:185e:d626:ae85:68f023) has joined
+T 1582934880 23*	enriooooooo (~nanoz@unaffiliated/nanoz23) has joined
+T 1582935092 20*	Disconnected (20)
+T 1582942621 20*	Disconnected (20Connection reset by peer)
